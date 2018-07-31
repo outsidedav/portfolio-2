@@ -1,0 +1,12 @@
+/*DHR Addiction Study CSS Overrides*/
+
+.slide{
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+}
+.slide object{
+    width: 80%;
+    margin: auto;
+    vertical-align: middle;
+}
