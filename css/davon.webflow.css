@@ -28,11 +28,11 @@ h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Lato, sans-serif;
-    color: #00ad92;
-    font-size: 1.6rem;
+    font-size: 1rem;
     line-height: 30px;
-    font-weight: 400;
-    text-align: center;
+    font-weight: 700;
+    text-align: left;
+    color: rgba(200, 200, 200, .87);
 }
 
 h4 {
@@ -70,9 +70,9 @@ p {
     margin-bottom: 16px;
     font-family: Lato, sans-serif;
     color: #fff;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     font-weight: 300;
-/*    letter-spacing: 0.5px;*/
+    /*    letter-spacing: 0.5px;*/
     font-size: 1.2rem;
 }
 
@@ -112,7 +112,7 @@ blockquote {
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
-     /*    slanted*/
+    /*    slanted*/
     clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
 }
 
@@ -238,7 +238,7 @@ blockquote {
     text-transform: uppercase;
 }
 
-project-section .button{
+project-section .button {
     margin: auto;
     text-align: center;
 
@@ -755,16 +755,47 @@ project-section .button{
 
 
 
+.oF-sec-one {
+    max-width: 83%;
+    margin: auto;
+}
+
+.proj-vid-small {
+    width: 350px;
+    height: 250px;
+}
+
+/*Flexbox           -----*/
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    /*justify-content: center;*/
+}
+
+
+.flexChild {
+    max-width: 350px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+
+
+
 @media (max-width: 554px) {
-    .w-container{
+    .w-container {
         width: 100%;
         text-align: center;
     }
-    
-    .p-div-block-r, .div-block, .p-div-block {
-    max-width: 75%;
-    float: none;
-    margin: auto;
+
+    .p-div-block-r,
+    .div-block,
+    .p-div-block {
+        max-width: 75%;
+        float: none;
+        margin: auto;
     }
 }
 
@@ -911,17 +942,17 @@ project-section .button{
     z-index: -2;
     width: 100%;
     /*    slanted*/
-     -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
     clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
 }
 
-.proj-vid{
+.proj-vid {
     width: 100%;
     clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
 }
 
-#anClip{
-    clip-path: polygon(0 0, 1600px 15%, 1600px 100%,0 80%);
+#anClip {
+    clip-path: polygon(0 0, 1600px 15%, 1600px 100%, 0 80%);
 }
 
 .background-gradient {
@@ -934,9 +965,9 @@ project-section .button{
     background: rgba(34, 34, 34, .5);
 }
 
-.bg-container{
+.bg-container {
     position: absolute;
-    top:0;
+    top: 0;
 }
 
 
@@ -1190,7 +1221,8 @@ project-section .button{
     margin-bottom: 25px;
 
 }
-.center-button{
+
+.center-button {
     text-align: center;
     margin: 20px auto;
 }
@@ -1294,12 +1326,10 @@ project-section .button{
     }
 }
 
-.processing{
-    
-}
+.processing {}
 
-.processing canvas{
-     margin: auto;
+.processing canvas {
+    margin: auto;
     display: block;
 }
 
@@ -1367,28 +1397,28 @@ project-section .button{
 }
 
 @media (max-width: 767px) {
-    #main-phone-img{
+    #main-phone-img {
         display: none;
     }
-    
-    .div-block{
+
+    .div-block {
         max-width: 75%;
         margin-left: 21px;
         margin-right: 21px;
         margin-top: 75px;
         text-align: center;
     }
-    
-    .image-6{
+
+    .image-6 {
         padding: 10%;
-       
+
     }
-    
-    .w-button{
-        
+
+    .w-button {
+
         margin-top: 1.5rem;
     }
-    
+
     .hero {
         min-height: 420px;
     }
@@ -1453,33 +1483,33 @@ project-section .button{
 }
 
 @media (max-width: 479px) {
-    
-      #main-phone-img{
+
+    #main-phone-img {
         display: none;
     }
-    
-    .project-background-vid{
+
+    .project-background-vid {
         display: none;
     }
-    
-    .div-block{
+
+    .div-block {
         max-width: 75%;
         margin-left: 21px;
         margin-right: 21px;
         margin-top: 150px;
         text-align: center;
     }
-    
-    .image-6{
+
+    .image-6 {
         padding: 10%;
-       
+
     }
-    
-    .w-button{
-        
+
+    .w-button {
+
         margin-top: 1.5rem;
     }
-    
+
     .hero {
         min-height: 340px;
     }
@@ -1551,30 +1581,30 @@ project-section .button{
 }
 
 @media (max-width: 400px) {
-    
-      #main-phone-img{
+
+    #main-phone-img {
         display: none;
     }
-    
-    .div-block{
+
+    .div-block {
         max-width: 75%;
         margin-left: 21px;
         margin-right: 21px;
         margin-top: 150px;
         text-align: center;
     }
-    
-    .image-6{
+
+    .image-6 {
         padding: 10%;
-       
+
     }
-    
-    .w-button{
-        
+
+    .w-button {
+
         margin-top: 1.5rem;
     }
-    
-    #main-cta{
+
+    #main-cta {
         position: absolute;
         top: 85px;
         right: 25%;
