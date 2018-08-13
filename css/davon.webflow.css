@@ -1333,8 +1333,11 @@ project-section .button {
     display: block;
 }
 
-
-
+#myEmbeddedScene {
+    height: 600px;
+    margin: auto;
+    width: 81%;
+}
 
 /************************************************************/
 
