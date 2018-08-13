@@ -19,12 +19,6 @@
             <h2 class="project-page-h2">Please allow time for the VR to load</h2>
         </div>
     </div>
-    <div class="project-section">
-        <div class="w-container">
-            <h2>Tour of the World</h2>
-            <p>The idea behind this VR experience was to build a meditation "game" where you could travel the world and meditate in different countries or environments. To interact with the environment, you only need to hover over a point for half a second, and then click on the prompt that pops up..</p>
-        </div>
-    </div>
     <div id="myEmbeddedScene">
         <a-scene embedded>
             <a-entity id="cameraWrapper" position="0 15 40">
@@ -81,6 +75,17 @@
             </a-entity>
         </a-scene>
         <script src="js/vrscript.js"></script>
+    </div>
+    <div class="project-section">
+        <div class="w-container">
+            <h2>Tour of the World</h2>
+            <p>The idea behind this VR experience was to build a meditation "game" where you could travel the world and meditate in different countries or environments. To interact with the environment, you only need to hover over a point for half a second, and then click on the prompt that pops up.</p>
+            
+            <p>One of the coolest facts about this project is how easy it was to make with a-frame and vanilla Javascript. In total, it took about 4 hours to make.
+            </p>
+            
+            <a href="https://github.com/outsidedav/earthVR" class="button w-button center">See the Code</a>
+        </div>
     </div>
 
     <!--    php footer include-->

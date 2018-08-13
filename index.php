@@ -19,7 +19,7 @@
         </div>
       </div>
     </div>
-    <div class="heading-wrapper w-container"><h3>New York Based</h3>
+    <div class="heading-wrapper w-container"><h3 id="main-h3">New York Based</h3>
       <h1 id="typer" class="main-heading home"></h1><a href="#projects" class="button w-button" id="main-cta">Design with me</a></div>
   </div>
   <div>
