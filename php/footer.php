@@ -1,34 +1,52 @@
 <!--this is the footer-->
 
 <div id="portfolio" class="section">
-    <div id="projects" class="container-3 w-container">
+    <div id="projects" class="container">
         <h3 class="section-title">Recent Projects</h3>
 
         <div class="container">
             <div class="row">
-                <div class="col-sm"><a href="/vr.php" class="w-inline-block"><img src="images/gifs/a-frame.gif" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Web VR</figcaption></a></div>
+                <div class="col-md-4">
+                    <a href="/vr.php" class="">
+                        <img src="images/gifs/a-frame.gif" class="img-fluid"><figcaption class="caption" class="caption">Web VR</figcaption></a>
+                </div>
                 <!--img 1-->
-                <div class="col-sm"><a href="/openframeworks.php" class="w-inline-block"><img src="images/openFrameworksThumbnail.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Creative Coding</figcaption></a></div>
+                <div class="col-md-4">
+                    <a href="/openframeworks.php" class="">
+                        <img src="images/openFrameworksThumbnail.png" class="img-fluid"><figcaption class="caption">Creative Coding</figcaption>
+                    </a>
+                </div>
                 <!--img 1-->
-                <div class="col-sm"><a href="/addictionStudy.php" class="w-inline-block"><img src="images/dhr/dhrthumbnail.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Digital Health Study</figcaption></a></div>
+                <div class="col-md-4">
+                    <a href="/addictionStudy.php" class="">
+                        <img src="images/dhr/dhrthumbnail.png" class="img-fluid">
+                        <figcaption class="caption">Digital Health Study</figcaption>
+                    </a>
+                </div>
             </div>
             <div class="row">
                 <!--img 1-->
-                <div class="col-sm"><a href="/deductr.php" class="w-inline-block"><img src="images/deductrthum.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Deductr</figcaption></a></div>
+                <div class="col-md-4">
+                    <a href="/deductr.php" class=""><img src="images/deductrthum.png" class="img-fluid"><figcaption class="caption">Deductr</figcaption></a></div>
                 <!--img 2-->
-                <div class="col-sm"><a href="https://www.openprocessing.org/user/97408" class="w-inline-block"><img src="images/oldTV800.png" class="project-image"><figcaption>p5*js</figcaption></a></div>
+                <div class="col-md-4"><a href="https://www.openprocessing.org/user/97408" class=""><img src="images/oldTV800.png" class="img-fluid"><figcaption class="caption">p5*js</figcaption></a></div>
                 <!--img 3-->
-                <div class="col-sm"><a href="227duffield.php" class="w-inline-block"><img src="images/UXclass.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/UXclass.png 500w, images/UXclass.png 800w, images/UXclass.png 800w" class="project-image"><figcaption>227 Duffield</figcaption></a></div>
+                <div class="col-md-4"><a href="227duffield.php" class=" "><img src="images/UXclass.png" class="img-fluid"><figcaption class="caption">227 Duffield</figcaption></a></div>
             </div>
             <div class="row">
                 <!--img 4-->
-                <div class="col-sm"><a href="/bluestar.php" class="w-inline-block"><img src="images/bluestar.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>BLuestar Cooking</figcaption></a></div>
+                <div class="col-md-4"><a href="/bluestar.php" class=" "><img src="images/bluestar.png"  class="img-fluid"><figcaption class="caption">BLuestar Cooking</figcaption></a></div>
                 <!--img 5-->
-                <div class="col-sm"><a href="/flatirons.php" class="w-inline-block"><img src="images/flatirons-computer600.gif" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/flatirons-computer600.gif 600w, images/flatirons-computer600.gif 800w" class="project-image"><figcaption>Flatirons Community Church</figcaption></a></div>
+                <div class="col-md-4"><a href="/flatirons.php" class=" "><img src="images/flatirons-computer600.gif"  class="img-fluid"><figcaption class="caption">Flatirons Community Church</figcaption></a></div>
                 <!--img 6-->
-                <div class="col-sm"><a href="/120.php" class="w-inline-block"><img src="images/rollei.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/rollei@0,65x.png 500w, images/rollei.png 800w, images/rollei.png 800w" class="project-image"><figcaption>120 on 120mm</figcaption></a></div>
-                <div class="w-dyn-item w-col w-col-4"><a href="/reebok.php" class="w-inline-block"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="project-image"/><figcaption>Reebok Copywriting</figcaption></a></div>
-                <div class="w-dyn-item w-col w-col-4"><a href="animations.php" class="w-inline-block"><img src="/images/appcues.gif" class="project-image"/><figcaption>HTML 5 Banners</figcaption></a></div>
+                <div class="col-md-4"><a href="/120.php" class=" "><img src="images/rollei.png" class="img-fluid"><figcaption class="caption">120 on 120mm</figcaption></a></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"><a href="/reebok.php" class=" "><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="img-fluid"/><figcaption class="caption">Reebok Copywriting</figcaption></a></div>
+
+                <div class="col-md-4"><a href="animations.php" class=" ">
+                <img src="/images/appcues.gif" class="img-fluid"/><figcaption class="caption">HTML 5 Banners</figcaption></a>
+                </div>
             </div>
             <div>
                 <p></p>

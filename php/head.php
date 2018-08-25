@@ -1,7 +1,7 @@
 <head>
     <meta charset="utf-8">
     <title>Davon Larson UX Design</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
 <!--    old css-->
 <!--    <link href="css/normalize.css" rel="stylesheet" type="text/css">-->
