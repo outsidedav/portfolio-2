@@ -1,62 +1,81 @@
 <!--this is the footer-->
 
 <div id="portfolio" class="section">
-    <div id="projects" class="container">
-        <h3 class="section-title">Recent Projects</h3>
-
-        <div class="container">
+   <h3 class="center my-5">Recent Projects</h3>
+    <div id="projects" class="container center">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-5">
                     <a href="/vr.php" class="">
-                        <img src="images/gifs/a-frame.gif" class="img-fluid"><figcaption class="caption" class="caption">Web VR</figcaption></a>
+                        <img src="images/gifs/a-frame.gif" class="img-fluid"><figcaption class="caption bg-dark">Web VR</figcaption></a>
                 </div>
                 <!--img 1-->
-                <div class="col-md-4">
-                    <a href="/openframeworks.php" class="">
-                        <img src="images/openFrameworksThumbnail.png" class="img-fluid"><figcaption class="caption">Creative Coding</figcaption>
+                <div class="col-md-4 mb-5">
+                    <a href="/shaders.php" class="">
+                        <img src="images/thumbnails/shaders.png" class="img-fluid"><figcaption class="caption bg-dark">Shaders</figcaption>
                     </a>
                 </div>
                 <!--img 1-->
-                <div class="col-md-4">
-                    <a href="/addictionStudy.php" class="">
-                        <img src="images/dhr/dhrthumbnail.png" class="img-fluid">
-                        <figcaption class="caption">Digital Health Study</figcaption>
+                <div class="col-md-4 mb-5">
+                    <a href="/kinect.php" class="">
+                        <img src="images/openFrameworksThumbnail.png" class="img-fluid"><figcaption class="caption bg-dark">Kinect</figcaption>
                     </a>
+                </div>
+                <div class="row">
+                    <!--img 1-->
+                    <div class="col-md-4 mb-5">
+                        <a href="/ring.php" class="">
+                            <img src="images/thumbnails/ring.png" class="img-fluid"><figcaption class="caption bg-dark">Ring Modulator</figcaption>
+                        </a>
+                    </div>
+                    <!--img 1-->
+                    <div class="col-md-4 mb-5">
+                        <a href="/addictionStudy.php" class="">
+                            <img src="images/dhr/dhrthumbnail.png" class="img-fluid">
+                            <figcaption class="caption bg-dark">Worklink</figcaption>
+                        </a>
+                    </div>
+                    <!--img 1-->
+                    <div class="col-md-4 mb-5">
+                        <a href="/addictionStudy.php" class="">
+                            <img src="images/dhr/dhrthumbnail.png" class="img-fluid">
+                            <figcaption class="caption bg-dark">Digital Health Study</figcaption>
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <!--img 1-->
-                <div class="col-md-4">
-                    <a href="/deductr.php" class=""><img src="images/deductrthum.png" class="img-fluid"><figcaption class="caption">Deductr</figcaption></a></div>
+                <div class="col-md-4 mb-5">
+                    <a href="/deductr.php" class=""><img src="images/deductrthum.png" class="img-fluid"><figcaption class="caption bg-dark">Deductr</figcaption></a></div>
                 <!--img 2-->
-                <div class="col-md-4"><a href="https://www.openprocessing.org/user/97408" class=""><img src="images/oldTV800.png" class="img-fluid"><figcaption class="caption">p5*js</figcaption></a></div>
+                <div class="col-md-4 mb-5"><a href="https://www.openprocessing.org/user/97408" class=""><img src="images/oldTV800.png" class="img-fluid"><figcaption class="caption bg-dark">p5*js</figcaption></a></div>
                 <!--img 3-->
-                <div class="col-md-4"><a href="227duffield.php" class=" "><img src="images/UXclass.png" class="img-fluid"><figcaption class="caption">227 Duffield</figcaption></a></div>
+                <div class="col-md-4 mb-5"><a href="227duffield.php" class=" "><img src="images/UXclass.png" class="img-fluid"><figcaption class="caption bg-dark">227 Duffield</figcaption></a></div>
             </div>
             <div class="row">
                 <!--img 4-->
-                <div class="col-md-4"><a href="/bluestar.php" class=" "><img src="images/bluestar.png"  class="img-fluid"><figcaption class="caption">BLuestar Cooking</figcaption></a></div>
+                <div class="col-md-4 mb-5"><a href="/bluestar.php" class=" "><img src="images/bluestar.png"  class="img-fluid"><figcaption class="caption bg-dark">BLuestar Cooking</figcaption></a></div>
                 <!--img 5-->
-                <div class="col-md-4"><a href="/flatirons.php" class=" "><img src="images/flatirons-computer600.gif"  class="img-fluid"><figcaption class="caption">Flatirons Community Church</figcaption></a></div>
+                <div class="col-md-4 mb-5"><a href="/flatirons.php" class=" "><img src="images/flatirons-computer600.gif"  class="img-fluid"><figcaption class="caption bg-dark">Flatirons Community Church</figcaption></a></div>
                 <!--img 6-->
-                <div class="col-md-4"><a href="/120.php" class=" "><img src="images/rollei.png" class="img-fluid"><figcaption class="caption">120 on 120mm</figcaption></a></div>
+                <div class="col-md-4 mb-5"><a href="/120.php" class=" "><img src="images/rollei.png" class="img-fluid"><figcaption class="caption bg-dark">120 on 120mm</figcaption></a></div>
             </div>
             <div class="row">
-                <div class="col-md-4"><a href="/reebok.php" class=" "><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="img-fluid"/><figcaption class="caption">Reebok Copywriting</figcaption></a></div>
+                <div class="col-md-4 mb-5"><a href="/reebok.php" class=" "><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="img-fluid"/><figcaption class="caption bg-dark">Reebok Copywriting</figcaption></a></div>
 
-                <div class="col-md-4"><a href="animations.php" class=" ">
-                <img src="/images/appcues.gif" class="img-fluid"/><figcaption class="caption">HTML 5 Banners</figcaption></a>
+                <div class="col-md-4 mb-5"><a href="animations.php" class=" ">
+                <img src="/images/appcues.gif" class="img-fluid"/><figcaption class="caption bg-dark">HTML 5 Banners</figcaption></a>
                 </div>
             </div>
             <div>
                 <p></p>
             </div>
-        </div>
+        
     </div>
 </div>
 <div class="footer">
-    <div class="w-container">
-        <div class="footer-logo">Davon Larson</div>
+    <div class="container center my-5">
+        <div class="">Davon Larson</div>
         <div>Human Centered Designer</div>
         <a href="https://dribbble.com/Davontheweb" class="fa fa-dribbble"></a>
         <a href="https://twitter.com/DavOnTheWeb" class="fa fa-twitter"></a>

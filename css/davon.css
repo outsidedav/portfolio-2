@@ -17,14 +17,71 @@ body {
 }
 .module-cover {
     position: relative;
-    padding: 240px 0 240px;
+    padding: 200px 0 200px;
     
 }
 
 .hero{
-    background-image: linear-gradient(180deg, rgba(0, 0, 34, .57), rgba(40, 0, 0, .57)), url('../images/bg/centralpark.png');
+        min-height: 800px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 34, .57), rgba(40, 0, 0, .57)), url(../images/bg/centralpark.png);
+    background-position: 0px 0px, 38% 50%;
+    background-size: auto, cover;
+    background-attachment: scroll, fixed;
+/*    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);*/
+}
+
+.proj-hero{
+      position: absolute;
+    top: 0;
+}
+
+.project-background-vid {
+    position: relative;
+    top: 0px;
+    z-index: -2;
+    width: 100%;
 }
 
 #skills-img{
     
+}
+
+.dark-grey{
+    color: #222
+}
+
+.dark-grey-bg{
+    background: #262626;
+}
+
+.overlap{
+    position: relative;
+    top: 24px;
+}
+
+.display-block{
+    display: block;
+}
+
+.center{
+    text-align: center;
+    margin: auto;
+}
+
+.caption{
+    color: white;
+    padding: 6px 0 6px 0;
+}
+
+a:active{
+    color: darkgray;
+}
+a:hover{
+    color: skyblue;
+    background-color: cornflowerblue;
+}
+
+.btn-outline-primary{
+    border-color: #fff;
+    color: #fff;
 }

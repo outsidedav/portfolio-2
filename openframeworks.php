@@ -3,11 +3,10 @@
 <!--    php head include-->
 <?php include 'php/head.php'; ?>
 
-<body class="body-2">
     <div>
         <!--      php nav include-->
         <?php include 'php/nav.php'; ?>
-        <div class="bg-container">
+        <div class="proj-hero">
             <video class="project-background-vid" autoplay loop>
             <source src="videos/kinect2bg.mp4" type="video/mp4" media="screen and (max-width:399px)">
             <source src="videos/kinect4bg.mp4" type="video/mp4" media="screen and (min-width:400px)">
