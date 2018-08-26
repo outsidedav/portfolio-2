@@ -24,7 +24,7 @@
     </div>
     <div class="oF-sec-one">
         <div class="project-section">
-            <div class=" ">
+            <div class="shaders">
 
                 <h2>Shaders</h2>
 
@@ -48,6 +48,35 @@
         <p>My first theory was that I would be able to use any image and apply it as a texture to the sphere. As you can see below, sphere's don't really work that way. You have to use a Mercator image, or UV map that will stretch evenly over a sphere (think of how an image of the globe looks stretched out).</p>
         <h3>Step 3</h3>
         <p>I decided to create my own using an image that I found online. Thanks to years of photography practice and graphic design, I'm pretty good with photoshop. After stretching the image proportionately, I was able to create a looping gif that would theoretically be able to be applied as a texture on the sphere to give us a similar effect from Annotation.</p>
+    </div>
+    <div class="oF-sec-one">
+        <div class="flexContainer project-section">
+            <div class="  flexChild">
+                <figure class="">
+                    <video class="border-white proj-vid-small" autoplay loop>
+            <source src="videos/icosphererotate940.mp4">
+            </video>
+                    <figcaption>Step 1</figcaption>
+                </figure>
+            </div>
+            <div class="  flexChild">
+                <figure class="">
+                    <video class="border-white proj-vid-small" autoplay loop>
+                    <source src="videos/shaderPrototype940.mp4">
+                    
+            </video>
+                    <figcaption>Step 2</figcaption>
+                </figure>
+            </div>
+            <div class="  flexChild">
+                <figure>
+                    <div class="border-white border-white proj-vid-small" style='background:url(images/eye.jpeg)'></div>
+                    <figcaption>Step 3</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <div class="oF-sec-one">
         <h3>Step 4</h3>
         <p>I then brought the image into photoshop to create a looping gif with a series of stretched images.</p>
         <h3>Step 5</h3>
@@ -56,36 +85,24 @@
     <div class="oF-sec-one">
         <div class="flexContainer project-section">
             <div class="  flexChild">
-                <figure class="">
-                    <video class="proj-vid-small" autoplay loop>
-            <source src="videos/icosphererotate940.mp4">
-            </video>
+                <figure>
+                    <div class="border-white proj-vid-small" style='background:url(images/eye.gif)'></div>
+                    <figcaption>Step 4</figcaption>
                 </figure>
             </div>
             <div class="  flexChild">
+
                 <figure class="">
-                    <video class="proj-vid-small" autoplay loop>
-                    <source src="videos/shaderPrototype940.mp4">
-            </video>
-                </figure>
-            </div>
-            <div class="  flexChild">
-                <div class="proj-vid-small" style='background:url(images/eye.jpeg)'></div>
-            </div>
-            <div class="  flexChild">
-                    <div class="proj-vid-small" style='background:url(images/eye.gif)'></div>
-            </div>
-            <div class="  flexChild">
-                <figure class="">
-                    <video class="proj-vid-small" autoplay loop>
+                    <video class="border-white proj-vid-small" autoplay loop>
             <source src="videos/eyeshader940.mp4">
             </video>
+                    <figcaption>Step 5</figcaption>
                 </figure>
             </div>
         </div>
     </div>
     <div class="project-section">
-        <div class="flexChild">
+        <div class="oF-sec-one">
             <h3>Background Shaders</h3>
             <p>One of the parts that were most fun about this project was working with other artists in the class, <a href="https://github.com/alexnathanson"> Alex Nathanson </a> figured out how to use grids in his shader to create this amoeba-like background. And Debbie Lit was able to create the black background you see in the final product below. </p>
             <video class="proj-vid" autoplay loop>

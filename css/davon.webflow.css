@@ -28,11 +28,10 @@ h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     font-family: Lato, sans-serif;
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 30px;
     font-weight: 700;
-    text-align: left;
-    color: rgba(200, 200, 200, .87);
+    text-align: center;
 }
 
 h4 {
@@ -358,6 +357,10 @@ project-section .button {
     font-size: 48px;
     line-height: 53px;
     font-weight: 700;
+}
+
+.shaders{
+    margin-top: 150px;
 }
 
 .main-heading.inline {
@@ -779,6 +782,15 @@ project-section .button {
     max-width: 350px;
     text-align: center;
     align-self: flex-start;
+    margin: 1rem;
+}
+
+.border-white{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    overflow: hidden;
+    
 }
 
 
@@ -797,6 +809,10 @@ project-section .button {
         float: none;
         margin: auto;
     }
+    .shaders{
+    margin-top: 0px;
+}
+    
 }
 
 .container-4 {
@@ -1324,6 +1340,9 @@ project-section .button {
         flex: 100%;
         max-width: 100%;
     }
+    .shaders{
+    margin-top: 160px;
+}
 }
 
 .processing {}
@@ -1405,6 +1424,9 @@ project-section .button {
     p {
         margin: 15px;
     }
+    .shaders{
+    margin-top: 0px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1424,6 +1446,9 @@ project-section .button {
         padding: 10%;
 
     }
+    .shaders{
+    margin-top: 160px;
+}
 
     .w-button {
 
@@ -1515,6 +1540,9 @@ project-section .button {
         padding: 10%;
 
     }
+    .shaders{
+    margin-top: 0px;
+}
 
     .w-button {
 
@@ -1604,6 +1632,9 @@ project-section .button {
         margin-top: 150px;
         text-align: center;
     }
+    .shaders{
+    margin-top: 0px;
+}
 
     .image-6 {
         padding: 10%;
