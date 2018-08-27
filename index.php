@@ -33,16 +33,14 @@
         <section class="module-cover parrallax text-center">
             <div class="container">
                 <div class="jumbotron">
-                    <p class="lead">New York Based</p>
+                    <h3 class="lead">New York Based</h3>
                     <h1 class="display-5" id="typer"></h1>
-                    <p class="lead">Welcome to my website, have a look around</p>
-                    <hr class="my-4">
                     <a class="btn btn-outline-primary" href="#portfolio" role="button">Design With Me</a>
                 </div>
             </div>
         </section>
     </div>
-    <div class="fluid-container">
+    <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
 
             <div class="col-md-4">
@@ -55,17 +53,16 @@
         </div>
     </div>
     <div class="container">
-        <div class="container">
+        <div class="container center">
 
             <img class="img-fluid my-5" id="skills-img" src="images/Asset-152x.png">
         </div>
 
 
-        <div class="container skills-p my-5 ">
+        <div class="container skills-p my-5">
             <h2 class="mx-auto">The Right Skills for the Job</h2>
-            <p class="">In school I studied web design and advertising, and worked as a graphic designer to pay the bills. After school I worked as a PM&amp;AM for an advertising company, where I was able to apply my skills to a diverse range of problems. Since then, I&#x27;ve been working as a freelance UX designer &amp; engineer while getting my Masters in Integrated Digital Media from NYU. All of this has made it easier to work with teams and bring a well rounded perspective to your users experience issues.</p><a href="#projects" class="btn btn-outline-primary">View Projects</a>
-
-        </div>
+            <p class="">In school I studied web design and advertising, and worked as a graphic designer to pay the bills. After school I worked as a PM&amp;AM for an advertising company, where I was able to apply my skills to a diverse range of problems. Since then, I&#x27;ve been working as a freelance UX designer &amp; engineer while getting my Masters in Integrated Digital Media from NYU. All of this has made it easier to work with teams and bring a well rounded perspective to your users experience issues.</p>
+            
 
 
     </div>

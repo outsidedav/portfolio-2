@@ -17,7 +17,7 @@ body {
 }
 .module-cover {
     position: relative;
-    padding: 200px 0 200px;
+    padding: 160px 0 200px;
     
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #skills-img{
-    
+    max-width: 80%;
 }
 
 .dark-grey{
@@ -84,4 +84,8 @@ a:hover{
 .btn-outline-primary{
     border-color: #fff;
     color: #fff;
+}
+
+.show-controls{
+    
 }
