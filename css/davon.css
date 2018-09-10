@@ -54,6 +54,10 @@ body {
     background: #262626;
 }
 
+.white-bg{
+    background: #fff;
+}
+
 .overlap{
     position: relative;
     top: 24px;
