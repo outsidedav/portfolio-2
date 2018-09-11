@@ -3,7 +3,7 @@
 <!-- Last Published: Wed Jan 31 2018 21:43:55 GMT+0000 (UTC) -->
 <html data-wf-domain="davon.webflow.io" data-wf-page="592103aa16b99b0139ddc5cb" data-wf-site="592103a916b99b0139ddc5c3" data-wf-status="1">
 
-<?php include 'php/head.php'; ?>
+<?php include 'php/preBShead.php'; ?>
 
 <body class="body">
     <div class="hero project-page">
@@ -49,7 +49,7 @@
         </div><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages.jpg" sizes="100vw" srcset="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-500.jpeg 500w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-800.jpeg 800w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-1080.jpeg 1080w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-1600.jpeg 1600w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-2000.jpeg 2000w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-2600.jpeg 2600w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages-p-3200.jpeg 3200w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5921272d2e29227ffc12a6b2_flatirons-pages.jpg 4800w" class="project-detail-image" /></div>
     
     
-    <?php include 'php/footer.php'; ?>
+    <?php include 'php/preBSFooter.php'; ?>
     
 </body>
 

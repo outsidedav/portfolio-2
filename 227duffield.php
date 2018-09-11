@@ -2,12 +2,12 @@
 <html data-wf-page="5a39e1e80edbf40001953722" data-wf-site="592103a916b99b0139ddc5c3">
 
 <!--    php head include-->
-<?php include 'php/head.php'; ?>
+<?php include 'php/preBShead.php'; ?>
 
 <body class="body-2">
     <div>
         <!--      php header include-->
-        <?php include 'php/nav.php'; ?>
+        <?php include 'php/preBSNav.php'; ?>
 
 
         <div class="project-background-div"> <img src="images/gateway-to-freedom.png">
@@ -136,7 +136,7 @@
     </div>
 
     <!--footer include    -->
-    <?php include 'php/footer.php'; ?>
+    <?php include 'php/preBSFooter.php'; ?>
     <!--footer include end-->
 
 </body>

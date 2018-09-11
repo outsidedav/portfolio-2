@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <!--    php head include-->
-<?php include 'php/head.php'; ?>
+<?php include 'php/preBShead.php'; ?>
 
     <div>
         <!--      php nav include-->
-        <?php include 'php/nav.php'; ?>
+        <?php include 'php/preBSNav.php'; ?>
         <div class="proj-hero">
             <video class="project-background-vid" autoplay loop>
             <source src="videos/kinect2bg.mp4" type="video/mp4" media="screen and (max-width:399px)">
@@ -118,7 +118,7 @@
             </div>
 
             <!--php include    -->
-            <?php include 'php/footer.php'; ?>
+            <?php include 'php/preBSFooter.php'; ?>
 
 
 </body>

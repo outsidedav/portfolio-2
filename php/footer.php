@@ -29,9 +29,9 @@
                     </div>
                     <!--img 1-->
                     <div class="col-md-4 mb-5">
-                        <a href="/addictionStudy.php" class="">
-                            <img src="images/dhr/dhrthumbnail.png" class="img-fluid">
-                            <figcaption class="caption bg-dark">Worklink</figcaption>
+                        <a href="/prethesis.php" class="">
+                            <img src="images/prethesis/prethesisthum.png" class="img-fluid">
+                            <figcaption class="caption bg-dark">Prethesis</figcaption>
                         </a>
                     </div>
                     <!--img 1-->

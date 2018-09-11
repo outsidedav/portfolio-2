@@ -2,12 +2,12 @@
 <html>
 
 <!--    php head include-->
-<?php include 'php/head.php'; ?>
+<?php include 'php/preBShead.php'; ?>
 
 <body class="body-2">
     <div>
         <!--      php header include-->
-        <?php include 'php/nav.php'; ?>
+        <?php include 'php/preBSNav.php'; ?>
 
         <div class="project-background-div"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59233458d1fcfd6c3aed0149_lillegraven_reebok_ooh_wall.jpg" sizes="100vw" srcset="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59233458d1fcfd6c3aed0149_lillegraven_reebok_ooh_wall-p-500.jpeg 500w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59233458d1fcfd6c3aed0149_lillegraven_reebok_ooh_wall-p-800.jpeg 800w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59233458d1fcfd6c3aed0149_lillegraven_reebok_ooh_wall-p-1080.jpeg 1080w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59233458d1fcfd6c3aed0149_lillegraven_reebok_ooh_wall.jpg 1380w" class="projbg" /></div>
         <div class="heading-wrapper w-container">
@@ -39,7 +39,7 @@
         </div><img class="project-detail-image w-dyn-bind-empty" /></div>
     
     <!--footer include    -->
-    <?php include 'php/footer.php'; ?>
+    <?php include 'php/preBSFooter.php'; ?>
     <!--footer include end-->
     
 </body>
