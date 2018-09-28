@@ -15,23 +15,36 @@ body {
     background-color: rgba(0, 0, 0, 0.0);
     text-align: center;
 }
+
 .module-cover {
     position: relative;
     padding: 160px 0 200px;
-    
+
 }
 
-.hero{
-        min-height: 800px;
+.hero {
+    height: 95vh;
     background-image: linear-gradient(180deg, rgba(0, 0, 34, .57), rgba(40, 0, 0, .57)), url(../images/bg/centralpark.png);
     background-position: 0px 0px, 38% 50%;
     background-size: auto, cover;
     background-attachment: scroll, fixed;
-/*    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);*/
+    /*    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);*/
 }
 
-.proj-hero{
-      position: absolute;
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+    .hero {
+        background-image: linear-gradient(180deg, rgba(0, 0, 34, .57), rgba(40, 0, 0, .57)), url(../images/bg/centralparkM.jpg);
+/*        background-position: 0px 0px, 38% 50%;*/
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    background-attachment:scroll;
+    }
+}
+
+.proj-hero {
+    position: absolute;
     top: 0;
 }
 
@@ -42,54 +55,109 @@ body {
     width: 100%;
 }
 
-#skills-img{
+#skills-img {
     max-width: 80%;
 }
 
-.dark-grey{
+.dark-grey {
     color: #222
 }
 
-.dark-grey-bg{
+.dark-grey-bg {
     background: #262626;
 }
 
-.white-bg{
+.white-bg {
     background: #fff;
 }
 
-.overlap{
+.overlap {
     position: relative;
     top: 24px;
 }
 
-.display-block{
+.overlap-reverse {
+    position: relative;
+    top: -200px;
+}
+
+.display-block {
     display: block;
 }
 
-.center{
+.center {
     text-align: center;
     margin: auto;
 }
 
-.caption{
+.caption {
     color: white;
     padding: 6px 0 6px 0;
 }
 
-a:active{
-    color: darkgray;
-}
-a:hover{
-    color: skyblue;
-    background-color: cornflowerblue;
-}
-
-.btn-outline-primary{
+.btn-outline-primary {
     border-color: #fff;
     color: #fff;
 }
 
-.show-controls{
-    
+.show-controls {}
+
+.nav-link:hover,
+.logo:hover {
+    color: skyblue;
+}
+
+.nav-link:active,
+.logo:active {
+    color: darkgray;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+/*animations*/
+
+.animate-lift {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.animate-lift:hover {
+    transform: scale(1.05)
+}
+
+.animate-lift:active {
+    transform: scale(1.01)
+}
+
+.video_contrainer {
+    z-index: -100;
+    overflow: hidden
+}
+
+#kinectOne {
+    overflow: hidden;
+}
+
+btn:hover {}
+
+.vertical-center {
+    min-height: 90%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 90vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (min-width: 1500px) {
+
+    .lead {
+        font-size: 3rem;
+    }
+
+    #typer {
+        font-size: 5rem;
+        margin-bottom: 1.5rem;
+    }
+
+
 }

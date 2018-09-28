@@ -8,7 +8,7 @@
             <div class="w-dyn-items w-row">
                 <div class="w-dyn-item w-col w-col-4"><a href="/vr.php" class="w-inline-block"><img src="images/gifs/a-frame.gif" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Web VR</figcaption></a></div>
                 <!--img 1-->
-                <div class="w-dyn-item w-col w-col-4"><a href="/openframeworks.php" class="w-inline-block"><img src="images/openFrameworksThumbnail.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Creative Coding</figcaption></a></div>
+                <div class="w-dyn-item w-col w-col-4"><a href="/openframeworks.php" class="w-inline-block"><img src="images/shaders.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Creative Coding</figcaption></a></div>
                 <!--img 1-->
                 <div class="w-dyn-item w-col w-col-4"><a href="/addictionStudy.php" class="w-inline-block"><img src="images/dhr/dhrthumbnail.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"><figcaption>Digital Health Study</figcaption></a></div>
                 <!--img 1-->

@@ -96,6 +96,8 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
+  height: 100vh;
+  padding: 0;
 }
 
 .ring-bg{
@@ -110,8 +112,8 @@
 
 .prethesis-bg{
   width: 100%;
-height: auto;
-background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/prethesis/stickynotehd.jpg");
+height: 400px;
+background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../prethesis/imgs/stickynotehd.png");
 background-position: center;
 background-repeat: no-repeat;
 background-attachment: scroll;
@@ -177,7 +179,7 @@ background-size: cover;
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #000;
   }
 }
 

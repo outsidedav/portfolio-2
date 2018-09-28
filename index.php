@@ -30,7 +30,7 @@
 
             </div>
         </div>
-        <section class="module-cover parrallax text-center">
+        <section class="module-cover parrallax text-center  vertical-center">
             <div class="container">
                 <div class="jumbotron">
                     <h3 class="lead">New York Based</h3>
