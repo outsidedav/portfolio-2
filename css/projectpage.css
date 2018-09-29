@@ -120,6 +120,16 @@ background-attachment: scroll;
 background-size: cover;
 }
 
+.duffield-bg{
+     width: 100%;
+height: 400px;
+background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/gateway-to-freedom.png");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover; 
+}
+
 /*
 .masthead h1 {
   font-size: 2.5rem;
