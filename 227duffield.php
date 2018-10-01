@@ -22,8 +22,16 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-white mb-4 ">Project Summary</h2>
-                    <p class="text-white-50 text-left">227 Abolitionist place is historical site from the underground railroad with a rich history in times both modern and past. In the past, it was home to the abolisionist couple the Truesdells, who helped an unknown number of slaves flee to freedom in Canada. In modern times, it belonged to activist Joy Chatel, who succesfully won an eminate domain suite against the city when they wanted to demolish the historical 227 Abolitionist place and build a parking lot. Our class partnered with the Brooklyn Historical Society and 227 Abolitionist place to pitch ideas to the museum of how they can increase awareness of the historical site.</p>
-                    <p class="text-white-50 text-left">The goal of this project was to design an interactive experience relates to <em>African-American history</em> of the <em>underground railway</em> located at Duffield St in Brooklyn, New York in an user-centered way. After three months of research, ideation and iterating, we decided to design a way-finding system mixed with a guerilla art project to raise interest of the historical site in Brooklyn Heights</p>
+                    <p class="text-white-50 text-left">
+                        227 Abolitionist place is the historical site from the underground railroad. In the past, it was home to the abolitionist couple the Truesdells, who helped an unknown number of slaves flee to freedom in Canada. In modern times, it belonged to activist Joy Chatel, who successfully won an eminent domain suit against the city government. New York City wanted to demolish the historical 227 Abolitionist places and build a parking lot. Our class partnered with the Brooklyn Historical Society and 227 Abolitionist places to pitch ideas to the museum of how they can increase awareness of the historical site.</p>
+                    
+                </div>
+                <div>
+                    <img class="img-fluid mb-4" src="images/duffield_timeline.png">
+                </div>
+                <div class="col-lg-8 mx-auto">
+                   <h4>Why did I work on this Project?</h4>
+                    <p class="text-white-50 text-left">While a grad student at NYU, one of my professors partnered with the site and the Brooklyn Historical Society. The goal of this project was to design an interactive experience relates to African-American history of the underground railway located at Duffield St in Brooklyn, New York in an user-centered way. After three months of research, ideation and iterating, we decided to design a way-finding system mixed with a guerilla art project to raise the interest of the historic site in Brooklyn Heights</p>
 
                     <blockquote class="mb-5">"Design an interactive experience to help users understand the African-American history of the underground railway as it realates to this site"</blockquote>
                 </div>
@@ -40,15 +48,13 @@
         <div class="container">
             <h2>Design Process</h2>
             <img class="img-fluid" src="images/UX-design-process.png">
-        </div>
-        <div class="container mt-4">
-            <h2>Site History</h2>
-            <img class="img-fluid overlap" src="images/duffield_timeline.png">
+            <h4>Understanding the Design Process behind this Project</h4>
+            <p class="text-white-50 text-left">There are several ways to follow the principles of Design Thinking in a process-oriented way. Though this was an iterative project, that didn't always fall perfectly into this graph, this was the general process that we were following. You will notice that this page has been broken up in a similar way.</p>
         </div>
     </section>
     <section class="projects-section text-center">
         <div class="container">
-            <h2>User Interviews</h2>
+            <h2>Research</h2>
             <div class="row align-items-center no-gutters mb-4 mb-lg-5">
                 <div class="col-xl-8 col-lg-7">
                     <img src="images/uxreserchUXClassAsset%201.png" class="img-fluid overlap" alt="Interviewing patrons of a similar exhibit at the Brooklyn Museum">
@@ -56,7 +62,16 @@
                 </div>
                 <div class="col-xl-4 col-lg-5">
                     <div class="featured-text text-center text-lg-left">
-                        <p class="text-white-50 mb-0">Research is key to the success of any project, and research lead our project throughout the entire design process. In the beginning, it was essential for us to understand three things: who would our key users be, what brings people to exhibits similar to our clients, and the sensitive history of our site. To do this, we interviewed patrons of two museums near our site visiting a similar exhibit, we interviewed experts and academics about the underground railroad in Brooklyn, and we conducted surveys on people in the neighborhood.
+                        <p class="text-white-50 mb-0">
+Research is key to the success of any project, and research leads our project throughout the entire design process. In the beginning, it was essential for us to understand three things:</p> 
+
+<ol class="text-white-50 mb-0">
+    <li>Who would our key users be</li>
+    <li>What brings people to exhibits similar to our clients,</li>
+    <li>The sensitive history of our site.</li>
+</ol>
+<p class="text-white-50 mb-0">
+To do this, we first built a timeline of the site by digging into the public records available for 227 Duffield. We then interviewed patrons of two museums near our site visiting a similar exhibit, we interviewed experts and academics about the underground railroad in Brooklyn, and we conducted surveys on people in the neighborhood. 
                         </p>
                     </div>
                 </div>
@@ -75,10 +90,10 @@
                             <img class="d-block w-100" src="images/duffieldresearch.png" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../duffield/survey-2.jpg/" alt="Second slide">
+                            <img class="d-block w-100" src="/duffield/survey-2.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="../duffield/survey-2.jpg/" alt="Third slide">
+                            <img class="d-block w-100" src="/duffield/survey-2.jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -98,7 +113,11 @@
     <section class="projects-section text-center">
         <div class="container">
             <h2>Identifying needs</h2>
-            <p class="text-white-50 text-left">After a few weeks of users interviews, pouring through old documents at the Brooklyn Historical Society, and interviews with experts, a problem began to emerge. The issue was that people who lived near 227 Duffield Place were fascinated by the history of the Underground Railroad but rarely were aware of the Abolitionist Place and its role in the underground railroad. Even when users where aware, they tended to be frustrated because information about the site was so hard to come by.</p>
+            
+                <p class="text-white-50 text-left">
+                    After a few weeks of users interviews, pouring through old documents at the Brooklyn Historical Society, and interviews with experts, a problem began to emerge. The issue was that people who lived near 227 Duffield Place were fascinated by the history of the Underground Railroad but rarely were aware of the Abolitionist Place and its role in the underground railroad. Even when users where aware, they tended to be frustrated because information about the site was so hard to come by.
+                </p>
+                <blockquotes class="mb-4">"After a few weeks of users interviews...a problem began to emerge."</blockquotes>
             <div id="car2" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
                     <li data-target="#car2" data-slide-to="0" class="active"></li>
@@ -128,8 +147,7 @@
     <section class="projects-section text-center">
         <div class="container">
             <h2>Ideation + How Might We</h2>
-            <p class="text-white-50 text-left">Originally the scope of this project was just meant to be a redesign of the mobile app, but as designing the app and talking to users, we recognized a problem: How to you design a modern app, modeled after a webapp, when the webapp itself needs an update? I decided to do a quick reskinning of what I thought the webapp could look like if we were to keep the general UX, but update it to be a little more modern. Then I took that card based design, from the site and modeled the app after it. This project is still ongoing, but we’ve made a lot of progress. Currently the dev team is working on implementing the signon process that I designed, and I am working on designing out each page based on the approved mockup above. </p>
-            <p class="text-white-50 text-left">Based on our research and user interviews, we created the above segments and targeted persona. To address our problem statement of creating awareness among people about the site, we brainstormed a bunch of ideas ranging from interactive experiences to navigation and installations. We came across quilt patterns and realized that they were deeply connected with the Underground Railroad. We decided to use the patterns to build an interactive physical prototype which people could play with easily and tested it out with users.</p>
+            <p class="text-white-50 text-left">Based on the results of our research, we defined a persona and segments, concepts that will be all too familiar to anyone in the marketing world. Again, because our problem centered around the idea of awareness, we brainstormed ideas that would bring attention to the site and educate the immediate area. Inspired by the barns that span the Underground railroad in the Midwest, we realized that there is already iconology associated with the underground railroad. We realized that the image of a quilt was deeply connected with the Underground Railroad, and decided to use quilt patterns to build an interactive physical prototype which people could play with easily and tested it out with users.</p>
             <img class="img-fluid mb-4" src="duffield/HMW.jpg">
             <div id="car3" class="carousel slide" data-ride="carousel" data-interval="false">
                 <ol class="carousel-indicators">
@@ -161,7 +179,7 @@
     <section class="projects-section text-center">
         <div class="container">
             <h2>Emerging Idea: Wayfinding Experience</h2>
-            <p class="text-white-50 text-left">Our testing results revealed that the patterns definitely captured the attention of the people walking by and they wanted to know more about the Brooklyn history. We realized that we need to design a navigation system which guides the users to follow the patterns as a way finding mechanism. Our concept was based on the idea that allowed users to create their own path to the museum by looking for the patterns.</p>
+            <p class="text-white-50 text-left">Our testing results revealed that the patterns definitely captured the attention of the people walking by and they wanted to know more about the Brooklyn history. We realized that we need to design a navigation system which guides the users to follow the patterns as a wayfinding mechanism. Our concept was based on the idea that allowed users to create their own path to the museum by looking for the patterns.</p>
             <img class="img-fluid mb-4" src="images/uxprototype.png">
             <div id="car4" class="carousel slide" data-ride="carousel" data-interval="5000">
                 <ol class="carousel-indicators">
@@ -206,7 +224,7 @@
                     <li data-target="#car5" data-slide-to="5"></li>
                 </ol>
                 <div class="carousel-inner">
-                   <div class="carousel-item active">
+                    <div class="carousel-item active">
                         <img class="d-block w-100" src="duffield/JourneyIdeation.jpg" alt="slide">
                     </div>
                     <div class="carousel-item">
@@ -240,10 +258,10 @@
             </div>
         </div>
     </section>
-        <section class="projects-section text-center">
+    <section class="projects-section text-center">
         <div class="container">
             <h2>Final Design</h2>
-            <p class="text-white-50 text-left">As part of designing the way finding experience, we created a mobile website which helped the users learn more about the history of the Abolitionist Place and Museum, what the quilt patterns represented and how to use them as a key to find next locations on the route. It also had a map section which helped users locate themselves in real time, showed the route to the museum and helped navigate to the next location using the patterns at each location. We tested the design with multiple users and found that users were able to decipher the patterns easily and the patterns captured their attention at several locations. Our next steps include adding more locations connected to underground rail road and include chapters or episodes in the way finding system to generate more interest and awareness among the users. </p>
+            <p class="text-white-50 text-left">As part of designing the wayfinding experience, we created a mobile website which helped the users learn more about the history of the Abolitionist Place and Museum, what the quilt patterns represented and how to use them as a key to finding next locations on the route. It also had a map section which helped users locate themselves in real time, showed the route to the museum and helped navigate to the next location using the patterns at each location. We tested the design with multiple users and found that users were able to decipher the patterns easily and the patterns captured their attention at several locations. Our next steps include adding more locations connected to the Underground Railroad and include chapters or episodes in the wayfinding system to generate more interest and awareness among the users. </p>
             <div id="car6" class="carousel slide" data-ride="carousel" data-interval="5000">
                 <ol class="carousel-indicators">
                     <li data-target="#car6" data-slide-to="0" class="active"></li>
