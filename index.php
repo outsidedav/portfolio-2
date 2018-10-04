@@ -48,7 +48,7 @@
             </div>
             <div class="col-md-3">
                 <h2 class="">PM &gt; NYU &gt; UX</h2>
-                <p class="">My name&#x27;s Davon. I&#x27;m a UX designer, and IDM grad student at NYU Tandon School of Engineering. Most of my pre-graduate experience was in Project Management for various digital agencies. Now as a grad student and freelance UX designer, I&#x27;m increasingly interested in creating systems that are naturally intuitive, and don&#x27;t just mechanize the user&#x27;s life, but bring value to them.</p><a href="https://drive.google.com/file/d/13VVNVZ1uL7IesGXTQAzKbl2jembG-ign/view?usp=sharing" class="btn btn-outline-primary" id="download-resume">Download Resume</a>
+                <p class="text-white-50">My name&#x27;s Davon. I&#x27;m a UX designer, and IDM grad student at NYU Tandon School of Engineering. Most of my pre-graduate experience was in Project Management for various digital agencies. Now as a grad student and freelance UX designer, I&#x27;m increasingly interested in creating systems that are naturally intuitive, and don&#x27;t just mechanize the user&#x27;s life, but bring value to them.</p><a href="https://drive.google.com/file/d/1nZRPpXILgLFZRZ39DicFrqTa29U53d5L/view?usp=sharing" class="btn btn-outline-primary" id="download-resume">Download Resume</a>
             </div>
         </div>
     </div>
@@ -61,7 +61,7 @@
 
         <div class="container skills-p my-5">
             <h2 class="mx-auto">The Right Skills for the Job</h2>
-            <p class="">In school I studied web design and advertising, and worked as a graphic designer to pay the bills. After school I worked as a PM&amp;AM for an advertising company, where I was able to apply my skills to a diverse range of problems. Since then, I&#x27;ve been working as a freelance UX designer &amp; engineer while getting my Masters in Integrated Digital Media from NYU. All of this has made it easier to work with teams and bring a well rounded perspective to your users experience issues.</p>
+            <p class="text-white-50">In school I studied web design and advertising, and worked as a graphic designer to pay the bills. After school I worked as a PM&amp;AM for an advertising company, where I was able to apply my skills to a diverse range of problems. I spent a year working as a freelance UX designer &amp; engineer while getting my Masters in Integrated Digital Media from NYU. Currently, I'm a Senior UX designer for NYU's Office of Technology &amp; Support.</p>
             
 
 

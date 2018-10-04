@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>abstract</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Copy-3" fill="#FFFFFF">
+            <path d="M18,0 L42,0 C51.9411255,-1.82615513e-15 60,8.0588745 60,18 L60,42 C60,51.9411255 51.9411255,60 42,60 L18,60 C8.0588745,60 1.21743675e-15,51.9411255 0,42 L0,18 C-1.21743675e-15,8.0588745 8.0588745,1.82615513e-15 18,0 Z M14,15 L14,20.3556768 L41.5352209,20.3556768 L41.5352209,47.932321 L47.3940173,47.932321 L47.3940173,15 L14,15 Z M26,48 C32.627417,48 38,42.627417 38,36 C38,29.372583 32.627417,24 26,24 C19.372583,24 14,29.372583 14,36 C14,42.627417 19.372583,48 26,48 Z M26,43 C22.1340068,43 19,39.8659932 19,36 C19,32.1340068 22.1340068,29 26,29 C29.8659932,29 33,32.1340068 33,36 C33,39.8659932 29.8659932,43 26,43 Z" id="abstract"></path>
+        </g>
+    </g>
+</svg>

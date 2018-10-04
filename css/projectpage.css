@@ -96,7 +96,7 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  height: 100vh;
+  height: 80vh;
   padding: 0;
 }
 
@@ -130,6 +130,16 @@ background-attachment: scroll;
 background-size: cover; 
 }
 
+.vm-bg{
+     width: 100%;
+height: 400px;
+background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../vm/img/bgVM.png");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover; 
+}
+
 /*
 .masthead h1 {
   font-size: 2.5rem;
@@ -155,7 +165,7 @@ background-size: cover;
 
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 87vh;
     padding: 0;
   }
   .masthead h1 {
@@ -170,7 +180,7 @@ background-size: cover;
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 5rem;
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
 
@@ -179,7 +189,7 @@ background-size: cover;
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 5rem 0;
 }
 
 .projects-section .featured-text {
@@ -227,4 +237,32 @@ body {
 
 footer {
   padding: 5rem 0;
+}
+
+.text-white-50{
+    color: rgba(255,255,255,.65) !important;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #222;
 }

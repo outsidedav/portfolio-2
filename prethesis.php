@@ -16,12 +16,22 @@
             <div class="mx-auto text-center">
                 <h1 class="mx-auto my-0 text-uppercase">Prethesis</h1>
                 <h2 class="text-white-50 mx-auto mt-2 mb-5">Discovering a research question, and solving the world</h2>
+
+            </div>
+
+        </div>
+        <div class="container align-items-center">
+            <div class="mx-auto text-center">
+                <a href="#cardSort" class="btn btn-dark">Card Sorting</a>
+                <a href="#two" class="btn btn-dark">Research</a>
+                <a href="#three" class="btn btn-secondary">Gwen's Workshop</a>
+                <a href="#problem" class="btn btn-light">Problem Statement</a>
             </div>
         </div>
     </header>
 
     <!-- About Section -->
-    <section id="about" class="about-section text-center">
+    <section id="cardSort" class="about-section text-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -40,7 +50,7 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="projects-section bg-light">
+    <section id="002" class="projects-section bg-light">
         <div class="container">
 
             <!-- Featured Project Row -->
@@ -237,7 +247,7 @@
             <h2 class="mb-4 dark-grey text-center">Assignment 003</h2>
             <h3 class="mb-4 dark-grey text-center">Gwens Workshop</h3>
             <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-               
+
                 <!-- <video class="col-xl-8 col-lg-7" autoplay loop>
                     <source src="videos/Annihilation.mp4">
                 </video> -->
@@ -298,27 +308,125 @@
                 </div>
             </div>
             <div class="col-lg-12  mx-auto dark-grey">
-                    <h4 class="dark-grey  text-center">Final Questions</h4>
-                    <ul>
-                       <ol><h5>Factual</h5>
+                <h4 class="dark-grey  text-center">Final Questions</h4>
+                <ul>
+                    <ol>
+                        <h5>Factual</h5>
                         <li>Are there any are tools that Architects and Contractors are currently using?</li>
                         <li>Do people care about when/how/who built a building?</li>
                         <br>
-                        </ol>
-                        <ol><h5>Technical</h5>
+                    </ol>
+                    <ol>
+                        <h5>Technical</h5>
                         <li>What would it take to pull dozens of openData APIs at once?</li>
                         <li>What 3d rendering tools do architects and designers currently use?</li>
                         <li>Is a revit file small enough to be portable?</li>
                         <br>
-                        </ol>
-                        <ol><h5>Conceptual</h5>
+                    </ol>
+                    <ol>
+                        <h5>Conceptual</h5>
                         <li>Does the context of space affect how to interpret data?</li>
                         <li>How can we address the ephemeral nature of software and our digital lives?</li>
                         <li>Can AR make design thinking cheaper?</li>
                         <br>
-                        </ol>
-                    </ul>
+                    </ol>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+    <section id="problem" class="about-section text-white">
+        <div id="" class="container">
+            <!-- Featured Project Row -->
+            <h2 class="mb-4 text-white text-center">004</h2>
+            <h3 class="mb-4 text-white text-center">Identifying the Problem</h3>
+            <div class="row no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-6 col-lg-6">
+                    <h4>Iterative Design</h4>
+                    <ol>
+                        <li class="text-white-50">In design thinking, too often we focus on the underlying brilliance of the theory without giving equal weight to the iterative prototyping and feedback process, which leads to engineers telling users how to behave, instead of the opposite. </li>
+                        <li class="text-white-50"> The problem of <em class="text-white">modern design thinking</em> is it affects the <em class="text-white">adoption of users to technology</em>, the impact of which is <em class="text-white">?</em> </li>
+                        <li class="text-white-50"> The problem of modern design thinking is it affects the adoption of users to technology, the impact of which is </li>
+                        <li class="text-white-50">The problem of <em class="text-white">slow prototyping</em> is that it affects <em class="text-white">designers</em> the impact of which is <em class="text-white">slow and expensive dev times</em>.</li>
+                        <li class="text-white-50">The problem of <em class="text-white">design thinking</em> is it affects <em class="text-white">architects and designers</em> the impact of which is <em class="text-white">slow production and missed deadlines</em>.</li>
+                    </ol>
                 </div>
+
+                <div class="col-xl-6 col-lg-6 mb-4">
+                    <div>
+                        <h4>Trust in news</h4>
+                        <ol>
+                            <li class="text-white-50">“Low trust in news makes news even less trust worthy”</li>
+                            <li class="text-white-50">The problem of <em class="text-white">68% of americans not trusting the news </em>affects <em class="text-white">how politicians talk about the traditional news media</em>, the impact of which is <em class="text-white">fake news or low quality news sites being legitimized by politicians, and the quality of the average news story out there.</em></li>
+                            <li class="text-white-50"> The problem with <em class="text-white">the cost of news gathering</em> is that it affects <em class="text-white">journalists and readers</em>, the impact of which is a <em class="text-white">partisan democracy</em></li>
+                            <li class="text-white-50">The problem of <em class="text-white">the news </em>is that it affects the <em class="text-white">industry and politics</em> the impact of which is a <em class="text-white">weaker 4rth estate</em>.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class=" col-xl-12 col-lg-12 mb-4">
+                    <h4 class="text-center">Designer Stakeholder Map</h4>
+                    <div class="">
+                        <img src="prethesis/imgs/designersMap.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class=" col-xl-12 col-lg-12 mb-4">
+                    <h4 class="text-center">Voter Stakeholder Map</h4>
+                    <div class="">
+                        <img src="prethesis/imgs/votersMap.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-12 text-center mb-4">
+                    <h3>Stakeholder List</h3>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-4">
+                    <div>
+                        <h5>Design Thinking</h5>
+                        <ol>
+                            <li class="text-white-50">Designers</li>
+                            <li class="text-white-50">Engineers</li>
+                            <li class="text-white-50">Project Managers</li>
+                            <li class="text-white-50">Researchers</li>
+                            <li class="text-white-50">Power Users</li>
+                            <li class="text-white-50">Early Adopters</li>
+                            <li class="text-white-50">Late Adopters</li>
+                            <li class="text-white-50">Prototyping Companies</li>
+                            <li class="text-white-50">Investors</li>
+                            <li class="text-white-50">Clients</li>
+                            <li class="text-white-50">Company Executives</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 mb-4">
+                    <div>
+                        <h5>Trust in news</h5>
+                        <ol>
+                            <li class="text-white-50">Journalists</li>
+                            <li class="text-white-50">Producers</li>
+                            <li class="text-white-50">Media Executives</li>
+                            <li class="text-white-50">FCC</li>
+                            <li class="text-white-50">Politicians</li>
+                            <li class="text-white-50">Congress</li>
+                            <li class="text-white-50">White House</li>
+                            <li class="text-white-50">Friends + Family </li>
+                            <li class="text-white-50">Tech Companies</li>
+                            <li class="text-white-50">Satire Companies</li>
+                            <li class="text-white-50">Add Networks</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class=" col-xl-12 col-lg-12 mb-4">
+                    <h4 class="text-center">Designer Persona</h4>
+                    <div class="">
+                        <img src="prethesis/imgs/designeruser.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class=" col-xl-12 col-lg-12 mb-4">
+                    <h4 class="text-center">Voter Persona</h4>
+                    <div class="">
+                        <img src="prethesis/imgs/voteruser.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
 
         </div>
     </section>
