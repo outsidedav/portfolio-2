@@ -1,199 +1,311 @@
 <!DOCTYPE html>
-<html data-wf-page="5a39e1e80edbf40001953722" data-wf-site="592103a916b99b0139ddc5c3">
-<head>
-  <meta charset="utf-8">
-  <title>Template</title>
-  <meta content="Template" property="og:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/davon.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Droid Sans:400,700"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-    
-    
-  <link href="" rel="shortcut icon" type="image/x-icon">
-  <link href="" rel="apple-touch-icon">
-    
-    
-</head>
-<body class="body-2">
-  <div>
-    <div data-collapse="medium" data-animation="default" data-duration="400" class="nav w-nav">
-      <div class="w-container">
-        <a href="/index.html" class="logo w-nav-brand">
-          <div class="home-logo-project-page">DAVON LARSON</div>
-        </a>
-        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#" class="w-nav-link">Portfolio</a><a href="#" class="w-nav-link">Me</a><a href="#" class="w-nav-link">Contact</a></nav>
-        <div class="w-nav-button">
-          <div class="w-icon-nav-menu"></div>
-        </div>
-      </div>
-    </div>
-      <div class="project-background-div"> <img src="images/gateway-to-freedom.png">
-      </div>
-    <div class="heading-wrapper w-container">
-        <h6 class="category"><span class="highlight" id="uxhighlight">UX Design</span></h6>
-      <h1 class="project-page-h1">Template Title</h1>
-        <h2 class="project-page-h2">Template Subtitle That Explains Things</h2>
-      </div>
-      
-  </div>
-    
-<!-- Page One Intro ////////////////////////////////////////////////////////////////////////////////////////////////-->
-  <div class="project-section">
-    <div class="w-container">
-        
-        <h2>Project Summary</h2>        
-        
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ex id dolor tincidunt congue. Maecenas ornare purus ut magna tempor vehicula. Quisque sollicitudin vel nunc at dignissim. Pellentesque interdum sem id neque tincidunt, eget commodo nunc finibus. Donec pretium convallis turpis quis elementum. Integer vulputate libero vitae lorem dapibus, nec pretium diam mollis. Curabitur mollis sapien ut quam vulputate, at lacinia enim tempus.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ex id dolor tincidunt congue. Maecenas ornare purus ut magna tempor vehicula. Quisque sollicitudin vel nunc at dignissim. Pellentesque interdum sem id neque tincidunt, eget commodo nunc finibus. Donec pretium convallis turpis quis elementum. Integer vulputate libero vitae lorem dapibus, nec pretium diam mollis. Curabitur mollis sapien ut quam vulputate, at lacinia enim tempus.</p>
-        
-        
-        <figure class="image-6">  
-          <img src="images/uxmockup.png" >
-            <figcaption>Final Mockup presented at the pitch to client</figcaption>
-        </figure>  
-      </div>
-  </div>
-    
-    
+<html lang="en">
 
-    
-<!--Page Three Design Process  /////////////////////////////////////////////////////////////////////////////////////////////// -->
-  <div class="project-section">
-    <div class="w-container">
-        <h2>Lorum Ipsum</h2>
-        <img src="images/UX-design-process.png" >
-    </div>
-  </div>
-      
-    
-<!--Page Four Research   /////////////////////////////////////////////////////////////////////////////////////////////// -->
-  <div class="project-section">
-    <div class="containter-4 w-container">
-        <h2>Understanding our Users</h2>
-        <div class="p-div-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ex id dolor tincidunt congue. Maecenas ornare purus ut magna tempor vehicula. Quisque sollicitudin vel nunc at dignissim. Pellentesque interdum sem id neque tincidunt, eget commodo nunc finibus. Donec pretium convallis turpis quis elementum. Integer vulputate libero vitae lorem dapibus, nec pretium diam mollis. Curabitur mollis sapien ut quam vulputate, at lacinia enim tempus. </p>
-     </div>
-        <figure class="p-div-block-r" style="width: 50%">
-            <img class="" src="images/uxreserchUXClassAsset%201.png"  >
-        <figcaption>This is a Sample Figcaption</figcaption>
-        </figure>
-      </div>
-  </div>
-    
-<!--Page Five Interviews   /////////////////////////////////////////////////////////////////////////////////////////////// -->    
-    
-<!--Page Six Define Needs   /////////////////////////////////////////////////////////////////////////////////////////////// -->  
-  <div class="project-section">
-    <div class="w-container">
-       
-    <h2 class="project-page-h2">Understanding The Site</h2>
-        
-      <img src="images/duffield_timeline.png" class="timeline">
-        
-        
-      
-      <p></p>
-        
-    </div>
-  </div>
-    
-    
-<!--Page Seven Ideate   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-    <div class="w-container">
-         <h2 class="project-page-h2">Understanding The Data</h2>
-      <img src="images/duffieldresearch.png" class="timeline">
-      <h2 class="project-page-h2">The Challange Emerges</h2>
-      <p>After a few weeks of users interviews, pouring through old documents at the Brooklyn Historical Society, and interviews with experts, a problem began to emerge. The issue was that people who lived near 227 Duffield Place were fascinated by the history of the Underground Railroad but rarely were aware of the Abolitionist Place and its role in the underground railroad. Even when users where aware, they tended to be frustrated because information about the site was so hard to come by.</p>
-    </div>
-  </div>
-    
-    
-<!--Page Eight Design & Prototype   /////////////////////////////////////////////////////////////////////////////////////////////// --> 
-    
-    <!--Page Seven Ideate   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-        
-    <div class="w-container">
-      <img src="images/segments.png" class="timeline">
-        <h2 class="project-page-h2">Segments</h2>
-      <p>We extracted the segments from our user research and start to sort out our persona.  The segments help us to uncover the patterns of use and trends in behavior that would otherwise be masked when lumping together the data for all visitors to the site. A major strength of personas is that they focus design efforts around user types and their specific needs or behaviors, and facilitate discussions among team members and stakeholders. </p>
-        
-    </div>
-  </div>
-    
- 
-    
-    <!--Page Nine User Testing   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-        
-    <div class="w-container">
-        <figure class="p-div-block-r">
-        <img class ="whitebg" src="images/ideation.png" style="width: 90%">
-        <figcaption>Working through "how might we" </figcaption>
-      </figure>
-        <div class="p-div-block">
-            <h4 class="project-page-h4">Ideation</h4>
-            <p>Originally the scope of this project was just meant to be a redesign of the mobile app, but as designing the app and talking to users, we recognized a problem: How to you design a modern app, modeled after a webapp, when the webapp itself needs an update? I decided to do a quick reskinning of what I thought the webapp could look like if we were to keep the general UX, but update it to be a little more modern. Then I took that card based design, from the site and modeled the app after it. This project is still ongoing, but we’ve made a lot of progress. Currently the dev team is working on implementing the signon process that I designed, and I am working on designing out each page based on the approved mockup above. </p>
+
+
+<?php include 'php/head.php'; ?>
+<link href="css/projectpage.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body id="page-top">
+
+    <header class="masthead vm-bg">
+        <?php include 'php/nav.php'; ?>
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <span><img src="logos/vmMasthead.svg" class="img-fluid"></span>
+            </div>
+
         </div>
-        
-    </div>
-  </div>
-    
-     <!--Page Ten Next Steps   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-    <div class="w-container">
-      <img class="timeline" src="images/uxprototype.png">
-      <h2 class="project-page-h2">Prototypes</h2>
-      <p>We build both physical and digital prototypes of interactive forms, pattern interpretation and information access to test and get many user feedbacks.
-      <img class="timeline" src="images/uxprototype.png">
- </p>
-    </div>
-  </div>
-    
-    
-<!--Footer Section   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-  <div class="section">
-    <div id="projects" class="container-3 w-container">
-      <h3 class="section-title">Recent Projects</h3>
-        
-      <div class="w-dyn-list">
-        <div class="w-dyn-items w-row">
-            <!--img 1-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/deductr.html" class="w-inline-block"><img src="images/deductrthum.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"></a></div>
-            <!--img 2-->
-          <div class="w-dyn-item w-col w-col-4"><a href="https://www.openprocessing.org/user/97408" class="w-inline-block"><img src="images/oldTV800.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"></a></div>
-            <!--img 3-->
-          <div class="w-dyn-item w-col w-col-4"><a href="227duffield.html" class="w-inline-block"><img src="images/UXclass.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/UXclass.png 500w, images/UXclass.png 800w, images/UXclass.png 800w" class="project-image"></a></div>
-            <!--img 4-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/bluestar.html" class="w-inline-block"><img src="images/bluestar.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"></a></div>
-            <!--img 5-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/flatirons.html" class="w-inline-block"><img src="images/flatirons-computer600.gif" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/flatirons-computer600.gif 600w, images/flatirons-computer600.gif 800w" class="project-image"></a></div>
-            <!--img 6-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/120.html" class="w-inline-block"><img src="images/rollei.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/rollei@0,65x.png 500w, images/rollei.png 800w, images/rollei.png 800w" class="project-image"></a></div>
-          <div class="w-dyn-item w-col w-col-4"><a href="/reebok.html" class="w-inline-block"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="project-image"/></a></div>
-            <div class="w-dyn-item w-col w-col-4"><a href="/projects/appcues" class="w-inline-block"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5a3ec8ef115b2f000131c62a_appcues.gif" class="project-image"/></a></div>
+
+    </header>
+    <aside class="">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center mt-3">
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/pencil.svg" class="img-fluid" alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/sketch.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/abstract.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/framer%20x.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/indesign.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div>
-          <p></p>
+    </aside>
+    <section id="process" class="projects-section bg-light">
+        <div class="container">
+
+            <div class="col-lg-8 mx-auto">
+                <h1 class="dark-grey mb-4 ">IT Vendor Management</h1>
+                <p class="text-black-50">IT Vendor Management is the team that processes new software, hardware and service request for NYU's massive amount of employees and staff. They get hundreds of thousands of requests and renewals each year and have developed a system that includes Email and Google Sheet to process these requests. It takes months for a new ITVM employee to learn this system, and costs NYU thousands of man-hours each year in maintenance and training.</p>
+                <p class="text-black-50">Although many types of people interact with Vendor Management, there are three main roles that are important here. At the center of everything is the Vendor Management User, or VMU, who acts as an intermediary between Vendors and Department users (DU). Even with automation, the VMU’s is still essential in approving, procuring and assisting the Department User in securing software, services, and hardware.</p>
+            </div>
+            <div class="col-12 text-center mb-4">
+                <img src="vm/img/users.png" class="img-fluid " alt="">
+
+            </div>
+            <div class="col-lg-8 mx-auto">
+                <h2 class="dark-grey">Problem Statment</h2>
+                <p class="text-black-50">VM users spend a large portion of their workday processing requests and renewals by hand, through Google sheets, and via email, when much of their work could be automated. </p>
+
+                <blockquote class="text-black-50"><i> "How might we use software to automate the workload of VM users, allowing them to spend more time on highlevel tasks and allowing for requests from department users to go through quicker" </i></blockquote>
+            </div>
+            <div class="col-lg-6 mx-auto text-center mb-4">
+                <img src="vm/img/highfive.png" class="img-fluid" alt="">
+
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="w-container">
-      <div class="footer-logo">Davon Larson</div>
-      <div>Human Centered Designer</div>
-    </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    </section>
+
+    <section id="workflow" class="projects-section bg-dark">
+        <div class="container">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-white mb-4 ">Documentation, Observation and MVP</h2>
+                <p class="text-white-50 mb-4">Our feature list included a range of tools that would make a coherent and comprehensive application; however, we decided to focus the MVP around the process in which Department User makes a new request, and engages with renewals.</p>
+                <p class="text-white-50 mb-4">We first mapped their current system, by interviewing and observing users, and introduced technologies that would make the process quicker and more user-friendly.</p>
+            </div>
+            <div id="car1" class="carousel slide mb-5" data-ride="carousel" data-interval="5000">
+                <ol class="carousel-indicators">
+                    <li data-target="#car1" data-slide-to="0" class="active"></li>
+                    <li data-target="#car1" data-slide-to="1"></li>
+                    <li data-target="#car1" data-slide-to="2"></li>
+                    <li data-target="#car1" data-slide-to="3"></li>
+                    <li data-target="#car1" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner mb-4">
+
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="vm/img/workflow2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/workflow3.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/workflow1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/workflow5.png" alt="Fifth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/workflow4.png" alt="Fourth slide">
+                    </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#car1" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                         <span class="sr-only">Previous</span></a>
+                <a class="carousel-control-next" href="#car1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+            </div>
+            <div class="col-lg-8 mx-auto mb-5">
+                <h2 class="text-white">Final MVP</h2>
+                <p class="text-white-50 mb-4">We discussed various use cases, including edge cases, and picked seven that represented the most number of users and would bring the most value to the Vendor Management team. </p>
+                <p class="text-white-50 mb-4">What isn't shown here, are the dozens of hours of observation and interviews we conducted with the ITVM team to understand their process. We learned the procurement processes at NYU is a massive operation, involving hundreds of moving parts and roles, but what was missing was an intuitive system for tracking and recording software requests.</p>
+            </div>
+            <div class="col-lg-12 mx-auto">
+                <img class="img-fluid" src="vm/img/workflowFinal.png">
+            </div>
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="dark-grey mbt-4 ">Focus Case</h2>
+                    <p class="text-black-50 mb-4">Our strategy was to start with the simplest case,  work out the details of that screen flow, and then move onto the more complicated cases, with more variables. We decided that Case 2 would be the simplest. In this case, the Department User (DU) starts a new request for a software from a provider that NYU has worked with before. The New Request is sent from the DU to the Vendor Management User (VMU). The VMU will verify that all the information they have received is correct. They will then input the proper information into I-Buy, negotiate with the vendor, and input all the relevant information into VM.</p>
+                    <p class="text-white-50 mb-4">We went through about 5 iterations of this case and moved on once we felt confident enough to map the other 7.</p>
+                    
+                </div>
+                <div class="col-lg-12 mx-auto">
+                <img class="img-fluid" src="vm/img/userCase2.png">
+            </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="dark-grey mbt-4 ">Initial Wireframes</h2>
+                </div>
+            </div>
+            <div id="car2" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <ol class="carousel-indicators">
+                    <li data-target="#car2" data-slide-to="0" class="active"></li>
+                    <li data-target="#car2" data-slide-to="1"></li>
+                    <li data-target="#car2" data-slide-to="2"></li>
+
+                </ol>
+                <div class="carousel-inner mb-4">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="vm/img/wireframe1.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/wireframe2.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/wireframe3.jpg" alt="Third slide">
+                    </div>
+
+
+                </div>
+                <a class="carousel-control-prev" href="#car2" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span></a>
+                <a class="carousel-control-next" href="#car2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div>
+
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="dark-grey mbt-4 ">Lo-Fi Mockups</h2>
+                    <p class="text-black-50"></p>
+                </div>
+            </div>
+            <div id="car3" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <ol class="carousel-indicators">
+                    <li data-target="#car3" data-slide-to="0" class="active"></li>
+                    <li data-target="#car3" data-slide-to="1"></li>
+                    <li data-target="#car3" data-slide-to="2"></li>
+                    <li data-target="#car3" data-slide-to="3"></li>
+                    <li data-target="#car3" data-slide-to="4"></li>
+
+                </ol>
+                <div class="carousel-inner mb-4">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="vm/img/lofiMockup1.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/lofiMockup3.png" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/lofiMockup5.png" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/lofiMockup2.png" alt="forth slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="vm/img/lofiMockup4.png" alt="Fifth slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#car3" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span></a>
+                <a class="carousel-control-next" href="#car3" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+            </div>
+            
+        </div>
+    </section>
+   <section class="projects-section bg-white">
+         <div class="container">
+            <div class="col-lg-6 mx-auto mb-4 text center ">
+                        <img src="vm/img/vmart.png">
+                    </div>
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto mb-4">
+                    <h2 class="dark-grey">Hi-Fi Mockups</h2>
+                    <p class="text-black-50">While running through design iterations, I worked with developers to create a design system that would work well with their framework. We decided that using the Material-UI React library and Bootstrap 4 would work best to accomplish the goals of this project. We modified those components to work with our internal design guidelines and added any components to the system that weren't available out of the box.</p>
+                </div>
+                <div class="col-lg-12 mx-auto mb-4">
+                    <img class="img-fluid" src="vm/img/interactions2.png">
+                </div>
+                <div id="car4" class="carousel slide bg-light" data-ride="carousel" data-interval="20000">
+                    <ol class="carousel-indicators">
+                        <li data-target="#car4" data-slide-to="0" class="active"></li>
+                        <li data-target="#car4" data-slide-to="1"></li>
+                        <li data-target="#car4" data-slide-to="2"></li>
+                        <li data-target="#car4" data-slide-to="3"></li>
+                        <li data-target="#car4" data-slide-to="4"></li>
+                        <li data-target="#car4" data-slide-to="5"></li>
+
+                    </ol>
+                    <div class="carousel-inner mb-4">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="vm/img/hifiN10.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN3.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN4.png" alt="forth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN5.png" alt="Fifth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN6.png" alt="Fifth slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="vm/img/hifiN7.png" alt="Fifth slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#car4" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                 <span class="sr-only">Previous</span></a>
+                    <a class="carousel-control-next" href="#car4" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+                </div>
+                <div class="col-lg-12 mx-auto mb-4">
+                    <img class="img-fluid" src="vm/img/interactions.png">
+                </div>
+                <div class="col-lg-12 mx-auto mb-4">
+                    <img class="img-fluid" src="vm/img/hifiM1.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php include 'php/footer.php'; ?>
+
 </body>
+
 </html>

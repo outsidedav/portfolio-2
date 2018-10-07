@@ -66,7 +66,8 @@
 
             <div class="col-lg-8 mx-auto">
                 <h1 class="dark-grey mb-4 ">IT Vendor Management</h1>
-                <p class="text-black-50">Vendor Management is team that processes new software, hardware and service request for NYU's massive ammount of employees and staff. They get hundreds of thousands of requests and renewals each year, and have developed a Google Sheet to help them process these requests by hand.</p>
+                <p class="text-black-50">IT Vendor Management is the team that processes new software, hardware and service request for NYU's massive amount of employees and staff. They get hundreds of thousands of requests and renewals each year and have developed a system that includes Email and Google Sheet to process these requests. It takes months for a new ITVM employee to learn this system, and costs NYU thousands of man-hours each year in maintenance and training.</p>
+                <p class="text-black-50">Although many types of people interact with Vendor Management, there are three main roles that are important here. At the center of everything is the Vendor Management User, or VMU, who acts as an intermediary between Vendors and Department users (DU). Even with automation, the VMU’s is still essential in approving, procuring and assisting the Department User in securing software, services, and hardware.</p>
             </div>
             <div class="col-12 text-center mb-4">
                 <img src="vm/img/users.png" class="img-fluid " alt="">
@@ -88,8 +89,9 @@
     <section id="workflow" class="projects-section bg-dark">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                <h2 class="text-white mb-4 ">Observation + Workflows</h2>
-                <p class="text-white-50 mb-4">The procuerment processes at NYU is a massive operation, involving hundreds of moving parts. If my Project Manager and I were to build a system that improved the speed at which VM users did their job, we first had understand the process behind what they did and why.</p>
+                <h2 class="text-white mb-4 ">Documentation, Observation and MVP</h2>
+                <p class="text-white-50 mb-4">Our feature list included a range of tools that would make a coherent and comprehensive application; however, we decided to focus the MVP around the process in which Department User makes a new request, and engages with renewals.</p>
+                <p class="text-white-50 mb-4">We first mapped their current system, by interviewing and observing users, and introduced technologies that would make the process quicker and more user-friendly.</p>
             </div>
             <div id="car1" class="carousel slide mb-5" data-ride="carousel" data-interval="5000">
                 <ol class="carousel-indicators">
@@ -127,11 +129,28 @@
             </div>
             <div class="col-lg-8 mx-auto mb-5">
                 <h2 class="text-white">Final MVP</h2>
-                <p class="text-white-50 mb-4">The procuerment processes at NYU is a massive operation, involving hundreds of moving parts. If my Project Manager and I were to build a system that improved the speed at which VM users did their job, we first had understand the process behind what they did and why.</p>
+                <p class="text-white-50 mb-4">We discussed various use cases, including edge cases, and picked seven that represented the most number of users and would bring the most value to the Vendor Management team. </p>
+                <p class="text-white-50 mb-4">What isn't shown here, are the dozens of hours of observation and interviews we conducted with the ITVM team to understand their process. We learned the procurement processes at NYU is a massive operation, involving hundreds of moving parts and roles, but what was missing was an intuitive system for tracking and recording software requests.</p>
             </div>
             <div class="col-lg-12 mx-auto">
                 <img class="img-fluid" src="vm/img/workflowFinal.png">
             </div>
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="dark-grey mbt-4 ">Focus Case</h2>
+                    <p class="text-black-50 mb-4">Our strategy was to start with the simplest case,  work out the details of that screen flow, and then move onto the more complicated cases, with more variables. We decided that Case 2 would be the simplest. In this case, the Department User (DU) starts a new request for a software from a provider that NYU has worked with before. The New Request is sent from the DU to the Vendor Management User (VMU). The VMU will verify that all the information they have received is correct. They will then input the proper information into I-Buy, negotiate with the vendor, and input all the relevant information into VM.</p>
+                    <p class="text-white-50 mb-4">We went through about 5 iterations of this case and moved on once we felt confident enough to map the other 7.</p>
+                    
+                </div>
+                <div class="col-lg-12 mx-auto">
+                <img class="img-fluid" src="vm/img/userCase2.png">
+            </div>
+            </div>
+
         </div>
     </section>
     <section id="wireframes" class="projects-section bg-light">
@@ -176,7 +195,7 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="dark-grey mbt-4 ">Lo-Fi Mockups</h2>
-                    <p class="text-black-50">We went through iterations of the simpilist case, until we felt confident enough to map the other 7 casees that we decided would be most important to the MVP.</p>
+                    <p class="text-black-50"></p>
                 </div>
             </div>
             <div id="car3" class="carousel slide" data-ride="carousel" data-interval="5000">
@@ -227,10 +246,10 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto mb-4">
                     <h2 class="dark-grey">Hi-Fi Mockups</h2>
-                    <p class="text-black-50">While running through design iterations, I worked with developers to create a design system that would work well with their framework. We decided that using the Material-UI React library and Bootsrap 4 would work best to accomplish the goals of this project. We modified those componates to work with our internal design guidlines and added any componantes to the system that weren't avalible out of the box.</p>
+                    <p class="text-black-50">While running through design iterations, I worked with developers to create a design system that would work well with their framework. We decided that using the Material-UI React library and Bootstrap 4 would work best to accomplish the goals of this project. We modified those components to work with our internal design guidelines and added any components to the system that weren't available out of the box.</p>
                 </div>
                 <div class="col-lg-12 mx-auto mb-4">
-                    <img class="img-fluid" src="vm/img/hifiM1.png">
+                    <img class="img-fluid" src="vm/img/interactions2.png">
                 </div>
                 <div id="car4" class="carousel slide bg-light" data-ride="carousel" data-interval="20000">
                     <ol class="carousel-indicators">
@@ -274,6 +293,12 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+                </div>
+                <div class="col-lg-12 mx-auto mb-4">
+                    <img class="img-fluid" src="vm/img/interactions.png">
+                </div>
+                <div class="col-lg-12 mx-auto mb-4">
+                    <img class="img-fluid" src="vm/img/hifiM1.png">
                 </div>
             </div>
         </div>
