@@ -10,11 +10,11 @@
 
 <body id="page-top">
 
-    <header class="masthead vm-bg">
+    <header class="masthead wl-bg">
         <?php include 'php/nav.php'; ?>
         <div class="container d-flex h-100 align-items-center">
             <div class="mx-auto text-center">
-                <span><img src="logos/vmMasthead.svg" class="img-fluid"></span>
+                <h1><b>NYU</b>Worklink</h1>
             </div>
 
         </div>
@@ -63,24 +63,24 @@
     </aside>
     <section id="process" class="projects-section bg-light">
         <div class="container">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="dark-grey mb-4 ">Worklink Mobile App</h1>
+                <p class="text-black-50">Worklink is an existing facility management system at NYU but currently lacks a mobile app for Residents and Faculty to submit a maintenance request. Worklink is extremely valuable to NYU's thousands of Facilities Employees, NYU Housing Residence, and service shops. currently, it allows work requests to be managed by Facilities and dispatched to service shops.</p>
+                <p class="text-black-50">
+                    When I joined NYU OTSS, we had just committed to redesigning the entire system, which includes separate Desktop apps for CSC and an iPad app for service shops. Currently, however, there is no end-user side, and if a housing resident wants to make a repair or maintenance request, they have to do it via email or phone.</p>
+                <p class="text-black-50">
+                    This app will make it more convenient for NYU faculty and residences, and reduce phone and email time for NYU Facilities employees.
+                </p>
+            </div>
 
             <div class="col-lg-8 mx-auto">
-                <h1 class="dark-grey mb-4 ">IT Vendor Management</h1>
-                <p class="text-black-50">IT Vendor Management is the team that processes new software, hardware and service request for NYU's massive amount of employees and staff. They get hundreds of thousands of requests and renewals each year and have developed a system that includes Email and Google Sheet to process these requests. It takes months for a new ITVM employee to learn this system, and costs NYU thousands of man-hours each year in maintenance and training.</p>
-                <p class="text-black-50">Although many types of people interact with Vendor Management, there are three main roles that are important here. At the center of everything is the Vendor Management User, or VMU, who acts as an intermediary between Vendors and Department users (DU). Even with automation, the VMU’s is still essential in approving, procuring and assisting the Department User in securing software, services, and hardware.</p>
+                <h2 class="dark-grey">Wireframes</h2>
+                <p class="text-black-50">When I was on-boarded onto the project, most of the wireframing and sketching was completed by another designer, so I want to be careful not to take credit for their work. Below are some of the wireframes that I initially received. We worked with the stakeholders and users to improve and validate some of the design assumptions we had made.</p>
+                <p class="text-black-50">After that, we moved onto designing lo-fi mockups and continued working closely with users in Facilities and CSC to ensure our designs were headed in the right direction.
+                </p>
             </div>
-            <div class="col-12 text-center mb-4">
-                <img src="vm/img/users.png" class="img-fluid " alt="">
-
-            </div>
-            <div class="col-lg-8 mx-auto">
-                <h2 class="dark-grey">Problem Statment</h2>
-                <p class="text-black-50">VM users spend a large portion of their workday processing requests and renewals by hand, through Google sheets, and via email, when much of their work could be automated. </p>
-
-                <blockquote class="text-black-50"><i> "How might we use software to automate the workload of VM users, allowing them to spend more time on highlevel tasks and allowing for requests from department users to go through quicker" </i></blockquote>
-            </div>
-            <div class="col-lg-6 mx-auto text-center mb-4">
-                <img src="vm/img/highfive.png" class="img-fluid" alt="">
+            <div class="col-lg-12 mx-auto text-center mb-4">
+                <img src="/worklink/mockups/lofi.png" class="img-fluid" alt="">
 
             </div>
         </div>
@@ -89,51 +89,16 @@
     <section id="workflow" class="projects-section bg-dark">
         <div class="container">
             <div class="col-lg-8 mx-auto">
-                <h2 class="text-white mb-4 ">Documentation, Observation and MVP</h2>
-                <p class="text-white-50 mb-4">Our feature list included a range of tools that would make a coherent and comprehensive application; however, we decided to focus the MVP around the process in which Department User makes a new request, and engages with renewals.</p>
-                <p class="text-white-50 mb-4">We first mapped their current system, by interviewing and observing users, and introduced technologies that would make the process quicker and more user-friendly.</p>
-            </div>
-            <div id="car1" class="carousel slide mb-5" data-ride="carousel" data-interval="5000">
-                <ol class="carousel-indicators">
-                    <li data-target="#car1" data-slide-to="0" class="active"></li>
-                    <li data-target="#car1" data-slide-to="1"></li>
-                    <li data-target="#car1" data-slide-to="2"></li>
-                    <li data-target="#car1" data-slide-to="3"></li>
-                    <li data-target="#car1" data-slide-to="4"></li>
-                </ol>
-                <div class="carousel-inner mb-4">
-
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="vm/img/workflow2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/workflow3.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/workflow1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/workflow5.png" alt="Fifth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/workflow4.png" alt="Fourth slide">
-                    </div>
-
-                </div>
-                <a class="carousel-control-prev" href="#car1" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                         <span class="sr-only">Previous</span></a>
-                <a class="carousel-control-next" href="#car1" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
-            </div>
-            <div class="col-lg-8 mx-auto mb-5">
-                <h2 class="text-white">Final MVP</h2>
-                <p class="text-white-50 mb-4">We discussed various use cases, including edge cases, and picked seven that represented the most number of users and would bring the most value to the Vendor Management team. </p>
-                <p class="text-white-50 mb-4">What isn't shown here, are the dozens of hours of observation and interviews we conducted with the ITVM team to understand their process. We learned the procurement processes at NYU is a massive operation, involving hundreds of moving parts and roles, but what was missing was an intuitive system for tracking and recording software requests.</p>
+                <h2 class="text-white mb-4 ">Rapid Prototyping</h2>
+                <p class="text-white-50 mb-4">Because the app is relatively small, and the MVP was limited to only the most valuable functions, we were able to move through several design iterations fast.</p>
+                <p class="text-white-50 mb-4">It allowed us to experiment with design conventions that would be new to our users, as well as employ ones that we know would be familiar. We tested several layouts and flows with our key users. </p>
+                <p class="text-white-50 mb-4">While interviewing users, we discovered how important the speed at which they could make a request is, and heard over an over again that that was a pain point when using the old system. Imagine how important this would be when making a repair request for a flooding toilet, or AC that is out in the summer.
+                </p>
+                <p class="text-white-50 mb-4">
+                    We decided to take advantage of several of NYU's existing databases, including their space database, and previous work request history. This allowed us to anticipate what users were requesting, and where they might be. The goal was to make the act of submitting a request as fast and painless as possible.</p>
             </div>
             <div class="col-lg-12 mx-auto">
-                <img class="img-fluid" src="vm/img/workflowFinal.png">
+                <img class="img-fluid" src="/worklink/mockups/iteration1.jpg">
             </div>
         </div>
     </section>
@@ -141,14 +106,29 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="dark-grey mbt-4 ">Focus Case</h2>
-                    <p class="text-black-50 mb-4">Our strategy was to start with the simplest case,  work out the details of that screen flow, and then move onto the more complicated cases, with more variables. We decided that Case 2 would be the simplest. In this case, the Department User (DU) starts a new request for a software from a provider that NYU has worked with before. The New Request is sent from the DU to the Vendor Management User (VMU). The VMU will verify that all the information they have received is correct. They will then input the proper information into I-Buy, negotiate with the vendor, and input all the relevant information into VM.</p>
-                    <p class="text-white-50 mb-4">We went through about 5 iterations of this case and moved on once we felt confident enough to map the other 7.</p>
-                    
+                    <h2 class="dark-grey mbt-4 ">Final Designs</h2>
+
                 </div>
                 <div class="col-lg-12 mx-auto">
-                <img class="img-fluid" src="vm/img/userCase2.png">
+                    <img class="img-fluid" src="worklink/mockups/final.jpg">
+                </div>
             </div>
+
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mbt-4 ">Prototyping &amp; Testing</h2>
+                    <p class="text-white-50 mb-4">
+                        Over the course of this project, we built and tested about 7 different Invision or Framer prototypes. This allowed us to both validate our good design, and correct our biases. It also allowed us to match our designs to the users mental model, which should result in a much lower adoption time and rate. </p>
+
+
+                </div>
+                <div class="col-lg-12 mx-auto">
+                    <img class="img-fluid" src="worklink/mockups/prototyping.png">
+                </div>
             </div>
 
         </div>
@@ -157,150 +137,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
-                    <h2 class="dark-grey mbt-4 ">Initial Wireframes</h2>
+                    <h2 class="dark-grey mbt-4 ">Filling in for the Front-end Team</h2>
+                    <p class="text-black-50 mb-4">
+React JS is new to our whole team, so we didn't see any reason that we couldn't learn it in tandem with our developers. Another designer here named Laz, and I took on the challenge of creating an HTML and CSS prototype that could easily be converted into React components. We also stayed involved with the development team, joining all of their scrums, and worked directly with them in converting our HTML prototype into React components. </p>
+
+                </div>
+                <div class="col-lg-12 mx-auto">
+                    <img class="img-fluid" src="worklink/mockups/prototypingCode.png">
                 </div>
             </div>
-            <div id="car2" class="carousel slide" data-ride="carousel" data-interval="5000">
-                <ol class="carousel-indicators">
-                    <li data-target="#car2" data-slide-to="0" class="active"></li>
-                    <li data-target="#car2" data-slide-to="1"></li>
-                    <li data-target="#car2" data-slide-to="2"></li>
 
-                </ol>
-                <div class="carousel-inner mb-4">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="vm/img/wireframe1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/wireframe2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/wireframe3.jpg" alt="Third slide">
-                    </div>
-
-
-                </div>
-                <a class="carousel-control-prev" href="#car2" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                 <span class="sr-only">Previous</span></a>
-                <a class="carousel-control-next" href="#car2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-            </div>
-
-        </div>
-    </section>
-    <section id="wireframes" class="projects-section bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 class="dark-grey mbt-4 ">Lo-Fi Mockups</h2>
-                    <p class="text-black-50"></p>
-                </div>
-            </div>
-            <div id="car3" class="carousel slide" data-ride="carousel" data-interval="5000">
-                <ol class="carousel-indicators">
-                    <li data-target="#car3" data-slide-to="0" class="active"></li>
-                    <li data-target="#car3" data-slide-to="1"></li>
-                    <li data-target="#car3" data-slide-to="2"></li>
-                    <li data-target="#car3" data-slide-to="3"></li>
-                    <li data-target="#car3" data-slide-to="4"></li>
-
-                </ol>
-                <div class="carousel-inner mb-4">
-                    <div class="carousel-item active">
-                        <img class="d-block w-100" src="vm/img/lofiMockup1.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/lofiMockup3.png" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/lofiMockup5.png" alt="Third slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/lofiMockup2.png" alt="forth slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block w-100" src="vm/img/lofiMockup4.png" alt="Fifth slide">
-                    </div>
-                </div>
-                <a class="carousel-control-prev" href="#car3" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                 <span class="sr-only">Previous</span></a>
-                <a class="carousel-control-next" href="#car3" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-            </div>
-            
-        </div>
-    </section>
-   <section class="projects-section bg-white">
-         <div class="container">
-            <div class="col-lg-6 mx-auto mb-4 text center ">
-                        <img src="vm/img/vmart.png">
-                    </div>
-        </div>
-    </section>
-    <section id="wireframes" class="projects-section bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto mb-4">
-                    <h2 class="dark-grey">Hi-Fi Mockups</h2>
-                    <p class="text-black-50">While running through design iterations, I worked with developers to create a design system that would work well with their framework. We decided that using the Material-UI React library and Bootstrap 4 would work best to accomplish the goals of this project. We modified those components to work with our internal design guidelines and added any components to the system that weren't available out of the box.</p>
-                </div>
-                <div class="col-lg-12 mx-auto mb-4">
-                    <img class="img-fluid" src="vm/img/interactions2.png">
-                </div>
-                <div id="car4" class="carousel slide bg-light" data-ride="carousel" data-interval="20000">
-                    <ol class="carousel-indicators">
-                        <li data-target="#car4" data-slide-to="0" class="active"></li>
-                        <li data-target="#car4" data-slide-to="1"></li>
-                        <li data-target="#car4" data-slide-to="2"></li>
-                        <li data-target="#car4" data-slide-to="3"></li>
-                        <li data-target="#car4" data-slide-to="4"></li>
-                        <li data-target="#car4" data-slide-to="5"></li>
-
-                    </ol>
-                    <div class="carousel-inner mb-4">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="vm/img/hifiN10.png" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN1.png" alt="First slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN2.png" alt="Second slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN3.png" alt="Third slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN4.png" alt="forth slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN5.png" alt="Fifth slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN6.png" alt="Fifth slide">
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="vm/img/hifiN7.png" alt="Fifth slide">
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#car4" role="button" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                 <span class="sr-only">Previous</span></a>
-                    <a class="carousel-control-next" href="#car4" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-                </div>
-                <div class="col-lg-12 mx-auto mb-4">
-                    <img class="img-fluid" src="vm/img/interactions.png">
-                </div>
-                <div class="col-lg-12 mx-auto mb-4">
-                    <img class="img-fluid" src="vm/img/hifiM1.png">
-                </div>
-            </div>
         </div>
     </section>
 

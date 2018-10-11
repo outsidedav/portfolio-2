@@ -56,33 +56,78 @@
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="text-white mb-4  ">Week 2 Project</h2>
-                    <a href="https://www.pinterest.com/davonriver/curiosity/"><div class="image">
+                    <a href="https://www.pinterest.com/davonriver/curiosity/">
+                        <div class="image">
                             <img src="prototyping/imgs/pinterest.png" class="img-fluid overlap" alt="">
-                        </div></a>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="text-white mt-5 mb-4 ">Curiosity</h3>
+                    <p class="text-white-50 text-left">
+                        Curiosity is the parent of innovation. Every great idea starts with simple curiosity, often that curiosity grows into a research topic, question or even product.<br><br>I've been thinking a lot lately about point clouds, and some of the applications of openframeworks. SO I started by building the mood board in Pinterest and collected inspiration from all over.<br><br> I then broke open an old program that I wrote in C++ for my Creative Coding Class and generated a point cloud using a Kinect. I then pulled that point cloud into illustrator and laser printed it onto a slat of birchwood.
+                    </p>
+                    <blockquote>"The important thing is not to stop questioning. Curiosity has its own reason for existing" -Albert Einstein</blockquote>
+                </div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 mx-auto">
-                            <h3 class="text-white mt-5 mb-4 ">Curiosity</h3>
-                            <p class="text-white-50 text-left">
-                                Curiosity is the parent of innovation. Every great idea starts with simple curiosity, often that curiosity grows into a research topic, question or even product.<br><br>I've been thinking a lot lately about point clouds, and some of the applications of openframeworks. SO I started by building the mood board in Pinterest and collected inspiration from all over.<br><br>
-                                I then broke open an old program that I wrote in C++ for my Creative Coding Class and generated a point cloud using a Kinect. I then pulled that point cloud into illustrator and laser printed it onto a slat of birchwood. 
-                            </p>
-                            <blockquote>"The important thing is not to stop questioning. Curiosity has its own reason for existing" -Albert Einstein</blockquote>
-                        </div>
-                        <div class="container">
-                            <div class="image center mbt-4">
-                                <img src="prototyping/imgs/kinectScreenShotSelfPortraitSM.png" class="img-fluid mb-4" alt="">
-                            </div>
-                            <div class="image center">
-                                <img src="prototyping/imgs/point-cloud-board.png" class="img-fluid" alt="">
-                            </div>
-                        </div>
-
+                    <div class="image center mbt-4">
+                        <img src="prototyping/imgs/kinectScreenShotSelfPortraitSM.png" class="img-fluid mb-4" alt="">
+                    </div>
+                    <div class="image center">
+                        <img src="prototyping/imgs/point-cloud-board.png" class="img-fluid" alt="">
                     </div>
                 </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="week-2" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4  ">Week 2 Project</h2>
+                    <a href="https://www.pinterest.com/davonriver/curiosity/">
+                        <div class="image">
+                            <img src="prototyping/imgs/pinterest.png" class="img-fluid overlap" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="toaster" class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="text-white mt-5 mb-4 ">If this Toaster Could Talk</h3>
+                    <p class="text-white-50 text-left">
+                        I just finished watching a show called Maniac, and though I normally wouldn't admit binging a Netflix show for a class assignment, kept thinking about the way the writer and director, Cary Fukunaga, used objects to drive the storyline.
+                    </p>
+                    <p class="text-white-50 text-left">
+
+                        In this show, all three of the frameworks are used to personify objects; one of the main characters is a computer AI played by Sally Feilds, that has been given emotions to help diagnose people with mental illnesses. That computer acts as an oracle that has the power to diagnose you, and tell you things about yourself that you never could learn on your own. Like an oracle, it sees through you and understands you.
+                    </p>
+                    <p class="text-white-50 text-left">
+
+                        The computer also acts as a subject, she is driven mad by other peoples emotions, and has a personality that is very important to the plot. And the entire show uses technology as a portal to transfer the viewer into a nostalgic view of the 80s.
+                    </p>
+                    <p class="text-white-50 text-left">
+                        The role of technology in storytelling may be obvious in this example; you can use tech to set the time and place of a narrative or use it to add plot points. But what I liked about the article "If this Toaster Could Talk" is it made me realize how important it is that a technology has its own narrative. This is interesting to me because of a conversation I had with a friend this week about this power, and potential problems surrounding the fact that we as humans frame mental models with narratives.
+                    </p>
+                    <p class="text-white-50 text-left">
+                        She made a great point and pointed out that "data without narrative, is just noise." We need storytelling to help us put data in context and help us understand what we can do with that data, or how it affects our lives. Maybe it works the same way with tech. Can we make sense of technology without a narrative? Do we assign stories, and frameworks of our own when we learn a new technology?
+                    </p>
+                    <p class="text-white-50 text-left">
+
+                        These are all interesting questions that came to mind as I read the article assigned in class. And I don't know if there is one straightforward answer to any of them. What is evident to me, that wasn't before, is how vital storytelling and narrative is to understand technology and that we need to plan for that as designers who introduce new technology to market.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
     </section>
 
     <!-- Projects Section -->

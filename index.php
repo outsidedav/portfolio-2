@@ -44,11 +44,11 @@
         <div class="row justify-content-center align-items-center">
 
             <div class="col-md-4">
-                <img src="images/portfolioAsset-12x.png" class="img-fluid my-5" id="main-phone-img">
+                <img src="images/gifs/ezgif.com-resize(1).gif" class="img-fluid my-5" id="main-phone-img">
             </div>
             <div class="col-md-3">
-                <h2 class="">PM &gt; NYU &gt; UX</h2>
-                <p class="text-white-50">My name&#x27;s Davon. I&#x27;m a UX designer, and IDM grad student at NYU Tandon School of Engineering. Most of my pre-graduate experience was in Project Management for various digital agencies. Now as a grad student and freelance UX designer, I&#x27;m increasingly interested in creating systems that are naturally intuitive, and don&#x27;t just mechanize the user&#x27;s life, but bring value to them.</p><a href="https://drive.google.com/file/d/1nZRPpXILgLFZRZ39DicFrqTa29U53d5L/view?usp=sharing" class="btn btn-outline-primary" id="download-resume">Download Resume</a>
+                <h2 class="">They call me Davon</h2>
+                <p class="text-white-50">Don't worry, no one knows how to say it the first time, but I pronounce it "Dav-in." I'm a UX Senior UX designer at NYU, and IDM grad student at NYU Tandon School of Engineering. Most of my pre-graduate experience was in Project Management for various digital agencies. As a graduate student, I'm interested in the cross-section of Design and Emerging Technology. As an employee of NYU, I strive to follow Design Thinking in every problem I try and solve.</p><a href="https://drive.google.com/file/d/1nZRPpXILgLFZRZ39DicFrqTa29U53d5L/view?usp=sharing" class="btn btn-outline-primary" id="download-resume">Download Resume</a>
             </div>
         </div>
     </div>
@@ -60,8 +60,8 @@
 
 
         <div class="container skills-p my-5">
-            <h2 class="mx-auto">The Right Skills for the Job</h2>
-            <p class="text-white-50">In school I studied web design and advertising, and worked as a graphic designer to pay the bills. After school I worked as a PM&amp;AM for an advertising company, where I was able to apply my skills to a diverse range of problems. I spent a year working as a freelance UX designer &amp; engineer while getting my Masters in Integrated Digital Media from NYU. Currently, I'm a Senior UX designer for NYU's Office of Technology &amp; Support.</p>
+            <h2 class="mx-auto">Design Thinking</h2>
+            <p class="text-white-50">Though I know how to design, and am a decent front-end developer, the most important skill I have is the ability to solve problems using Design Thinking. To me, this means being able to empathize, observe, ideate, prototype rapidly and validate your ideas with users. It also means being able to tell a story with tools such as Sketch, Invision, Framer X, and After Effects. I am also a believer that every designer should understand the constraints of developers, and be familiar with the languages and libraries they are working in. In the past, that meant learning PHP &amp; JQuery. On my current projects, I'm working in React JS to build working prototypes.</p>
             
 
 

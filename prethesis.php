@@ -20,15 +20,48 @@
             </div>
 
         </div>
-        <div class="container align-items-center">
-            <div class="mx-auto text-center">
-                <a href="#cardSort" class="btn btn-dark">Card Sorting</a>
-                <a href="#two" class="btn btn-dark">Research</a>
-                <a href="#three" class="btn btn-secondary">Gwen's Workshop</a>
-                <a href="#problem" class="btn btn-light">Problem Statement</a>
+    </header>
+    <aside class="">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center mt-3">
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <a href="#cardSort" class="btn btn-dark">Card Sorting</a>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <a href="#two" class="btn btn-dark">Research</a>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <a href="#three" class="btn btn-secondary">Gwen's Workshop</a>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <a href="#problem" class="btn btn-secondary">Problem Statement</a>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <a href="#personas" class="btn btn-secondary">Personas</a>
+                        </figure>
+                    </a>
+                </div>
             </div>
         </div>
-    </header>
+    </aside>
 
     <!-- About Section -->
     <section id="cardSort" class="about-section text-center">
@@ -414,7 +447,7 @@
                         </ol>
                     </div>
                 </div>
-                <div class=" col-xl-12 col-lg-12 mb-4">
+                <div id="personas" class=" col-xl-12 col-lg-12 mb-4">
                     <h4 class="text-center">Designer Persona</h4>
                     <div class="">
                         <img src="prethesis/imgs/designeruser.png" class="img-fluid" alt="">

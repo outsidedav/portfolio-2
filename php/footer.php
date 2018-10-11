@@ -36,12 +36,7 @@
         </div>
         <div class="row">
 
-            <div class="col-md-4 mb-5 animate-lift">
-                <a href="/prethesis.php" class="">
-                            <img src="/prethesis/imgs/prethesisthum.png" class="img-fluid">
-                            <figcaption class="caption bg-dark">Prethesis</figcaption>
-                        </a>
-            </div>
+            <div class="col-md-4 mb-5 animate-lift"><a href="/worklink.php" class=""><img src="/worklink/worklinkThumbnail.jpg" class="img-fluid"><figcaption class="caption bg-dark">NYU Worklink</figcaption></a></div>
             <!--img 1-->
             <div class="col-md-4 mb-5 animate-lift">
                 <a href="/vm.php" class="">
@@ -57,9 +52,14 @@
             <div class="col-md-4 mb-5 animate-lift">
                 <a href="/deductr.php" class=""><img src="images/deductrthum.png" class="img-fluid"><figcaption class="caption bg-dark">Deductr</figcaption></a></div>
             <!--img 2-->
-            <div class="col-md-4 mb-5 animate-lift"><a href="https://www.openprocessing.org/user/97408" class=""><img src="images/oldTV800.png" class="img-fluid"><figcaption class="caption bg-dark">NYU Worklink</figcaption></a></div>
+            <div class="col-md-4 mb-5 animate-lift"><a href="/reebok.php" class=" "><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="img-fluid"/><figcaption class="caption bg-dark">Reebok Copywriting</figcaption></a></div>
             <!--img 3-->
-            <div class="col-md-4 mb-5 animate-lift"><a href="/flatirons.php" class=" "><img src="images/flatirons-computer600.gif"  class="img-fluid"><figcaption class="caption bg-dark">Flatirons Community Church</figcaption></a></div>
+            <div class="col-md-4 mb-5 animate-lift">
+                <a href="/prethesis.php" class="">
+                            <img src="/prethesis/imgs/prethesisthum.png" class="img-fluid">
+                            <figcaption class="caption bg-dark">Prethesis</figcaption>
+                        </a>
+            </div>
         </div>
         <div class="row">
             <!--img 4-->
@@ -70,7 +70,7 @@
             <!--                <div class="col-md-4 mb-5 animate-lift"><a href="/120.php" class=" "><img src="images/rollei.png" class="img-fluid"><figcaption class="caption bg-dark">120 on 120mm</figcaption></a></div>-->
         </div>
         <div class="row">
-            <div class="col-md-4 mb-5 animate-lift"><a href="/reebok.php" class=" "><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="img-fluid"/><figcaption class="caption bg-dark">Reebok Copywriting</figcaption></a></div>
+<!--            <div class="col-md-4 mb-5 animate-lift"><a href="/reebok.php" class=" "><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="img-fluid"/><figcaption class="caption bg-dark">Reebok Copywriting</figcaption></a></div>-->
 
             <!--
             <div class="col-md-4 mb-5 animate-lift"><a href="animations.php" class=" ">
