@@ -129,7 +129,37 @@
             </div>
         </div>
     </section>
+    <section>
+<div id="airforce" class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3 class="text-white mt-5 mb-4 ">Ice Cream Scooper</h3>
+                    <p class="text-white-50 text-left">
+                        I first brought in an ice cream scooper with the hopes of redesigning it, it can be frustrating how while scooping your ice cream, sometimes you apply too much pressure and fling the ice cream. I have since realized that is just because I have purchased really cheap ice cream scoopers.
+                    </p>
+                    <figure>
+                        <img class="img-fluid" src="ideation/scooper.jpg">
+                        <figcaption>My Sketches of a better Ice Cream Scooper</figcaption>
+                    </figure>
+                    <p class="text-white-50 text-left">
 
+                        Then, while working on an AR project with a friend of mine, realized that it is kind of crazy that in 2018 we still tie our shoes the same way that we have for the last... I dont know... thousand years &#40;still needs to be fact checked&#41; <br>
+                        In this project, we are using AR to change the color and pattern on an Air Force 1. I thought that it might be cool if the next verson of this shoe had a better system for tying your shoe. One of the most frustrating part of the shoe, is the laces, the laces tend to come untied multible times a day.<br>
+                        Currently the only solution for this is to double knot it, or to get shoes with velcro. <br>
+                        Now I don't think Air Force 1's would look as good with velcro, so I recomend using laces, but adding a latch at the end of the lace that ties into it's self without a knot.
+                        <br>
+                        That way you can have the style of laces, but with the reliability of velcro.
+                    </p>
+                    <figure>
+                        <img class="img-fluid" src="ideation/sheolacepng.png">
+                        <figcaption>My Sketches of a Shoe Lace System</figcaption>
+                    </figure>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
     <!-- Projects Section -->
 
 

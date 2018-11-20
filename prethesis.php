@@ -22,26 +22,31 @@
         </div>
     </header>
     <aside class="">
-        <div class="container">
+        <div class="container mt-2">
+          
+           <div class="col-lg-8 mx-auto">
+               <h4 class="text-center ">Jump To Section</h4>
+               <p class="text-white-50 text-left">This project is all on one page, and a rather long one at that. To navigate quickly, you can use the anchor links below.</p>
+           </div>
             <div class="row d-flex justify-content-center text-center mt-3">
                 <div class="col-sm-2">
                     <a href="#">
                         <figure>
-                            <a href="#cardSort" class="btn btn-dark">Card Sorting</a>
+                            <a href="#cardSort" class="btn btn-secondary">Discovery</a>
                         </figure>
                     </a>
                 </div>
                 <div class="col-sm-2">
                     <a href="#">
                         <figure>
-                            <a href="#two" class="btn btn-dark">Research</a>
+                            <a href="#two" class="btn btn-secondary">Research</a>
                         </figure>
                     </a>
                 </div>
                 <div class="col-sm-2">
                     <a href="#">
                         <figure>
-                            <a href="#three" class="btn btn-secondary">Gwen's Workshop</a>
+                            <a href="#three" class="btn btn-secondary">Writing</a>
                         </figure>
                     </a>
                 </div>
@@ -55,7 +60,14 @@
                 <div class="col-sm-2">
                     <a href="#">
                         <figure>
-                            <a href="#personas" class="btn btn-secondary">Personas</a>
+                            <a href="#abstract" class="btn btn-secondary">Abstract</a>
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <a href="#test" class="btn btn-secondary">Practice Research</a>
                         </figure>
                     </a>
                 </div>
@@ -463,7 +475,175 @@
 
         </div>
     </section>
+ <section id="about" class="about-section text-center text-white">
+        <div class="container">
+            <h2 class="text-white mb-4 " id="six">Assignment 006</h2>
+            <h3 class="text-white mb-4 ">One Page Status Update</h3>
+            <div class="row mt-5">
+                <div class="col-lg-8  mx-auto">
+                   <h6>So where am I at?</h6>
+                    <p class="text-white-50 text-left">
+                    Great question, and I’m not sure if it’s any further along than where I started. I have lots of ideas, and though I have crossed a lot of ideas of my list, new ideas give way to more ideas, and it’s hard to commit to one direction. 
+                    <br><br>
+                    I keep asking myself what it is that I want my thesis it accomplish, and I wrote in my notebook last week these three things. I’ve been using these three things to measure the value of an idea, but i realize that this early in my thesis that may not be helpful.
+                    </p>
+                    <h6>So what do I want my thesis to accomplish?</h6>
+                    <ol class="text-white-50 text-left">
+                            <li class="text-white-50 text-left">It should make the world a slightly better place.</li>
+                            <li class="text-white-50 text-left">It should showcase my talents</li>
+                            <li class="text-white-50 text-left">It should solve a clear problem</li>
+                            <li class="text-white-50 text-left">(stretch goal, it should help me get a job)</li>
+                        </ol>
+                    <br><br>
+                   <h6> So what is my topic?</h6>
+                    <p class="text-white-50 text-left">
+                    Right now I’m exploring Mental models, within the context of design thinking. Currently, a lot of focus is put on testing, and working with users, but the emphasis isn’t necessarily about mapping mental models. I would like to know they are formed, and how a designers mental model differs from that of a users.
+                    <br><br>
+                    I’ve noticed that a lot of graphic designers and engineers assume that they know how the user would respond to a process, or workflow, without talking to the user. Designers and Engineers have a mental model in their head, but the problem is that that model rarely actually matches the users. Sometimes users can use intuition to figure out the tasks they need to perform in order to successfully navigate a program, as they do this they are constructing a mental model, and making decisions based on how they understand the software. 
+                    <br><br>
+                    However, what happens when the software becomes more complicated is that users are no longer able to just intuit a mental model together, they require training. Sometimes this training is just a list of rote tasks that leads to a result. The user doesn’t understand what is happening under the hood, they just know that if they press this and that, something will happen. One of the papers I read shows how this form of rote memorization means that people quickly forget how to use the software, whereas when people actually understand what x or y button is doing under the hood, when they have a mental model, they are able to both perform the tasks faster, and they remember how to user the software longer.
+                    </p>
+                    <h6>What are the components you are most excited by? </h6>
+                    <p class="text-white-50 text-left">
+                    I started out inspired by learning from los vegas, I was really interested in how they applied the observation of how people use space to architecture, and paired with the iterative nature of Los vegas. However, my background isn’t in architecture, and I was worried that this would become a research paper on architecture.
+                    <br><br>
+                    My background is actually in Advertising and Journalism, and I realized that the common threat between Journalism, advertising and Venturi’s version of architecture is the need to understand what the User, Subject or consumer is thinking. 
+                    </p>
+                    <h6>Where do you see this going? </h6>
+                    <p class="text-white-50 text-left">It would be fun to play with AR, there are some new features with persistence that allow you to network information. 
+                    <br><br>
+                    Theoretically I could conduct and experiment, or make a game, or art piece, that gives people a prompt, like “what does a house look like” and then they could use AR to illustrate a house that matches their mental model, and then we could programmatically compare it to other people’s mental model to illustrate the problem.
+                    </p>
+                    
+                </div>
+            </div>
+     </div>
+    </section>
+    <section id="abstract" class="about-section text-center text-white">
+        <div class="container">
+            <h2 class="text-white mb-4 " id="six">Assignment 008</h2>
+            <h3 class="text-white mb-4 ">Four Page Extended Abstract</h3>
+            <div class="row mt-5">
+            <p><a href="https://drive.google.com/file/d/1F4fuEaVB9DSRQReTv_HQXGLF93TNVy81/view?usp=sharing"><img src="prethesis/imgs/extendedAbstractThumbnail.png" class="img-fluid col-lg-6"></a></p>
+            </div>
+        </div>
+    </section>
+    <section id="test" class="about-section text-center text-white">
+        <div class="container">
+            <h2 class="text-white mb-4 " id="six">Assignment 009</h2>
+            <h3 class="text-white mb-4 ">Practice Based Research</h3>
+            <div class="row mt-5">
+            <p>The first step was to establish a baseline, so I asked users to draw a simple house on white paper. I chose a house because it is one of the most ubiquitous symbols to the human expereince, and everyone should have some mental model of a house. It is also something that many people grow up drawing, usually fist with crayons. The way a house looks also depends on the culture that you grew up in. With all these factors in consideration, my guess was that these drawings of homes would each look a little different, be mostly the same, and vary based on the users background. As you can see below, most homes looked exactly how you would imagine them too</p>
+            <div class="row">
+                <img class="img-fluid col-md-4 img-thumbnail" src=prethesis/imgs/researchDrawings/1quinn.jpg>
+                <img class="img-fluid col-md-4 img-thumbnail" src=prethesis/imgs/researchDrawings/1quin>
+                <img class="img-fluid col-md-4 img-thumbnail" src=prethesis/imgs/researchDrawings/1quin>
+            </div>
+            <p>The next step of this experiment was to ask users to draw homes in pairs of 2. I asked them to take turns making simple strokes, one at a time, for four minutes or until they felt like the house was finished. During this excersize, you really began to see the differnces in mental models play out, and how much our backgrounds affect our mental models.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2bonnieAndT.png>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2brynnBryce.jpg>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2maxDavon.png>
+                </div>
+            </div>
+             <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2cherishaJoanna.png>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2debChris.jpg>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2heidiDavon2.jpg>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2kaiyaAvalee.jpg>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2cassidyRaksha.png>
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid img-thumbnail" src=prethesis/imgs/researchDrawings/2rayatDavon.jpg>
+                </div>
+            </div>
+            
+            </div>
+            
+        </div>
+    </section>
+        <section id="prototype" class="about-section text-white">
+        <div id="" class="container">
+            <!-- Featured Project Row -->
+            <h2 class="mb-4 text-white text-center">009</h2>
+            <h3 class="mb-4 text-white text-center">Prototyping, Users and Testing</h3>
+            <div class="row no-gutters mb-4 mb-lg-5">
+                <div class="col-xl-6 col-lg-6">
+                    <h5>Users</h5>
+                        <ol>
+                            <li class="text-white-50">Designers</li>
+                            <li class="text-white-50">Architects</li>
+                            <li class="text-white-50">People who want to learn about an are</li>
+                            <li class="text-white-50">Data Scientists</li>
+                            <li class="text-white-50">Recent Mover</li>
+                        </ol>
+                </div>
 
+                <div class="col-xl-6 col-lg-6 mb-4">
+                    <div>
+                        <h4>Questions for Stakeholders</h4>
+                        <ol>
+                            <li class="text-white-50">How to you make since of the data that you work with, what are your methods for finding trends?</li>
+                            <li class="text-white-50">How do you first establish the users’ idea of how something should look or work?</li>
+                            <li class="text-white-50"> What is the most compelling way to present data</li>
+                            <li class="text-white-50"> Does  physicality affect how data is received.</li>
+                            <li>Is there data inequality?</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class=" col-sm-6 mb-4 p-3">
+                    <h4 class="text-center">Prototype</h4>
+                    <div class="">
+                        <video src="prethesis/videos/metrotech.mp4" class="img-fluid" alt="" autoplay controls ></video>
+                    </div>
+                </div>
+                <div class=" col-sm-6 mb-4 p-3">
+                    <h4 class="text-center">Responses from users</h4>
+                    <div class="">
+                        <img src="prethesis/imgs/responses.PNG" class="img-fluid" alt="">
+                    </div>
+                </div>
+                <div class=" col-sm-12 mb-4 p-3">
+                    <h4 class="text-center">Expert inteviews</h4>
+                   
+                        <iframe class="mb-3" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/531998433&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                        <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/532673976&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                    
+                </div>
+                <div>
+                    <p class="text-white-50">After all my research I decided to take it in the direction of exploring people’s mental models, how they are formed, and how designers can understand them and make software that matches them.
+
+But honestly, I just haven’t been excited about it. It was interesting at first, but I keep going back to some of my original topics that were more interesting, but less specific (like playing with city data, or the one about sex abuse in south east asia )<br><br>
+
+What got me to mental model idea was kind of my fascination with Learning from Las Vegas. And this idea that DSB kind of invented design thinking, and made a case for design thinking before that was ever a thing.
+<br><br>
+But there is this other component to that book, they drove around for days and collected city data and documented how the city was lit, how large signs were ect… <br><br>
+Now-a-days city data is abundant and open-sourced, and I think that there is a case to be made that there is a relationship between how compelling data is, and it’s physicality. And when we can view data in real space, it’s often more interesting.
+<br><br>
+So I’m thinking about playing around with sexual violence data, or gun data, or really any city data, and pulling it into an augmented reality app that displays it in different ways. <br><br>
+In my prototype above, there is just a informational tag where something happened, but I think it would be even more impactful if it were more abstract and artistic and allowed users to “discover what a data point means” based on it’s context.</p>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
 
     <?php include 'php/footer.php'; ?>
 
