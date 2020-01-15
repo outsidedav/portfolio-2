@@ -33,14 +33,14 @@
         <section class="module-cover parrallax text-center  vertical-center">
             <div class="container">
                 <div class="jumbotron">
-                    <h3 class="lead">New York Based</h3>
-                    <h1 class="display-5" id="typer"></h1>
+                    <h3 class="lead">SF Bay Based</h3>
+                    <h1 class="display-5" id="typer">UX Designer</h1>
                     <a class="btn btn-outline-primary" href="#portfolio" role="button">Design With Me</a>
                 </div>
             </div>
         </section>
     </div>
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
 
             <div class="col-md-4">
@@ -51,7 +51,8 @@
                 <p class="text-white-50">Don't worry, no one knows how to say it the first time, but I pronounce it "Dav-in." I'm a UX Senior UX designer at NYU, and IDM grad student at NYU Tandon School of Engineering. Most of my pre-graduate experience was in Project Management for various digital agencies. As a graduate student, I'm interested in the cross-section of Design and Emerging Technology. As an employee of NYU, I strive to follow Design Thinking in every problem I try and solve.</p><a href="https://drive.google.com/file/d/1nZRPpXILgLFZRZ39DicFrqTa29U53d5L/view?usp=sharing" class="btn btn-outline-primary" id="download-resume">Download Resume</a>
             </div>
         </div>
-    </div>
+    </div> -->
+
     <div class="container">
         <div class="container center">
 
