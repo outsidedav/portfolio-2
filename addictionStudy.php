@@ -2,13 +2,13 @@
 <html data-wf-page="5a39e1e80edbf40001953722" data-wf-site="592103a916b99b0139ddc5c3">
 
 <!--    php head include-->
-    <?php include 'php/head.php'; ?>
+    <?php include 'php/preBShead.php'; ?>
 <!--php head end-->
 
 <body class="body-2">
     <div>
 <!--      php nav include-->
-    <?php include 'php/nav.php'; ?>
+    <?php include 'php/preBSNav.php'; ?>
 <!--        php nav end-->
         <div class="project-background-div"> <img src="images/dhrbg.png">
         </div>
@@ -113,7 +113,7 @@
         </div>
     </div>
 <!--    php footer include-->
-   <?php include 'php/footer.php'; ?>  
+   <?php include 'php/preBSFooter.php'; ?>  
 <!--php footer end    -->
 </body>
 

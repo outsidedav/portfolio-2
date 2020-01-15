@@ -1,199 +1,157 @@
 <!DOCTYPE html>
-<html data-wf-page="5a39e1e80edbf40001953722" data-wf-site="592103a916b99b0139ddc5c3">
-<head>
-  <meta charset="utf-8">
-  <title>Template</title>
-  <meta content="Template" property="og:title">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
-  <link href="css/normalize.css" rel="stylesheet" type="text/css">
-  <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/davon.webflow.css" rel="stylesheet" type="text/css">
-  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
-  <script type="text/javascript">WebFont.load({  google: {    families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Droid Sans:400,700"]  }});</script>
-  <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
-  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
-    
-    
-  <link href="" rel="shortcut icon" type="image/x-icon">
-  <link href="" rel="apple-touch-icon">
-    
-    
-</head>
-<body class="body-2">
-  <div>
-    <div data-collapse="medium" data-animation="default" data-duration="400" class="nav w-nav">
-      <div class="w-container">
-        <a href="/index.html" class="logo w-nav-brand">
-          <div class="home-logo-project-page">DAVON LARSON</div>
-        </a>
-        <nav role="navigation" class="nav-menu w-nav-menu"><a href="#" class="w-nav-link">Portfolio</a><a href="#" class="w-nav-link">Me</a><a href="#" class="w-nav-link">Contact</a></nav>
-        <div class="w-nav-button">
-          <div class="w-icon-nav-menu"></div>
-        </div>
-      </div>
-    </div>
-      <div class="project-background-div"> <img src="images/gateway-to-freedom.png">
-      </div>
-    <div class="heading-wrapper w-container">
-        <h6 class="category"><span class="highlight" id="uxhighlight">UX Design</span></h6>
-      <h1 class="project-page-h1">Template Title</h1>
-        <h2 class="project-page-h2">Template Subtitle That Explains Things</h2>
-      </div>
-      
-  </div>
-    
-<!-- Page One Intro ////////////////////////////////////////////////////////////////////////////////////////////////-->
-  <div class="project-section">
-    <div class="w-container">
-        
-        <h2>Project Summary</h2>        
-        
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ex id dolor tincidunt congue. Maecenas ornare purus ut magna tempor vehicula. Quisque sollicitudin vel nunc at dignissim. Pellentesque interdum sem id neque tincidunt, eget commodo nunc finibus. Donec pretium convallis turpis quis elementum. Integer vulputate libero vitae lorem dapibus, nec pretium diam mollis. Curabitur mollis sapien ut quam vulputate, at lacinia enim tempus.</p>
-        
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ex id dolor tincidunt congue. Maecenas ornare purus ut magna tempor vehicula. Quisque sollicitudin vel nunc at dignissim. Pellentesque interdum sem id neque tincidunt, eget commodo nunc finibus. Donec pretium convallis turpis quis elementum. Integer vulputate libero vitae lorem dapibus, nec pretium diam mollis. Curabitur mollis sapien ut quam vulputate, at lacinia enim tempus.</p>
-        
-        
-        <figure class="image-6">  
-          <img src="images/uxmockup.png" >
-            <figcaption>Final Mockup presented at the pitch to client</figcaption>
-        </figure>  
-      </div>
-  </div>
-    
-    
+<html lang="en">
 
-    
-<!--Page Three Design Process  /////////////////////////////////////////////////////////////////////////////////////////////// -->
-  <div class="project-section">
-    <div class="w-container">
-        <h2>Lorum Ipsum</h2>
-        <img src="images/UX-design-process.png" >
-    </div>
-  </div>
-      
-    
-<!--Page Four Research   /////////////////////////////////////////////////////////////////////////////////////////////// -->
-  <div class="project-section">
-    <div class="containter-4 w-container">
-        <h2>Understanding our Users</h2>
-        <div class="p-div-block">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis ex id dolor tincidunt congue. Maecenas ornare purus ut magna tempor vehicula. Quisque sollicitudin vel nunc at dignissim. Pellentesque interdum sem id neque tincidunt, eget commodo nunc finibus. Donec pretium convallis turpis quis elementum. Integer vulputate libero vitae lorem dapibus, nec pretium diam mollis. Curabitur mollis sapien ut quam vulputate, at lacinia enim tempus. </p>
-     </div>
-        <figure class="p-div-block-r" style="width: 50%">
-            <img class="" src="images/uxreserchUXClassAsset%201.png"  >
-        <figcaption>This is a Sample Figcaption</figcaption>
-        </figure>
-      </div>
-  </div>
-    
-<!--Page Five Interviews   /////////////////////////////////////////////////////////////////////////////////////////////// -->    
-    
-<!--Page Six Define Needs   /////////////////////////////////////////////////////////////////////////////////////////////// -->  
-  <div class="project-section">
-    <div class="w-container">
-       
-    <h2 class="project-page-h2">Understanding The Site</h2>
-        
-      <img src="images/duffield_timeline.png" class="timeline">
-        
-        
-      
-      <p></p>
-        
-    </div>
-  </div>
-    
-    
-<!--Page Seven Ideate   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-    <div class="w-container">
-         <h2 class="project-page-h2">Understanding The Data</h2>
-      <img src="images/duffieldresearch.png" class="timeline">
-      <h2 class="project-page-h2">The Challange Emerges</h2>
-      <p>After a few weeks of users interviews, pouring through old documents at the Brooklyn Historical Society, and interviews with experts, a problem began to emerge. The issue was that people who lived near 227 Duffield Place were fascinated by the history of the Underground Railroad but rarely were aware of the Abolitionist Place and its role in the underground railroad. Even when users where aware, they tended to be frustrated because information about the site was so hard to come by.</p>
-    </div>
-  </div>
-    
-    
-<!--Page Eight Design & Prototype   /////////////////////////////////////////////////////////////////////////////////////////////// --> 
-    
-    <!--Page Seven Ideate   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-        
-    <div class="w-container">
-      <img src="images/segments.png" class="timeline">
-        <h2 class="project-page-h2">Segments</h2>
-      <p>We extracted the segments from our user research and start to sort out our persona.  The segments help us to uncover the patterns of use and trends in behavior that would otherwise be masked when lumping together the data for all visitors to the site. A major strength of personas is that they focus design efforts around user types and their specific needs or behaviors, and facilitate discussions among team members and stakeholders. </p>
-        
-    </div>
-  </div>
-    
- 
-    
-    <!--Page Nine User Testing   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-        
-    <div class="w-container">
-        <figure class="p-div-block-r">
-        <img class ="whitebg" src="images/ideation.png" style="width: 90%">
-        <figcaption>Working through "how might we" </figcaption>
-      </figure>
-        <div class="p-div-block">
-            <h4 class="project-page-h4">Ideation</h4>
-            <p>Originally the scope of this project was just meant to be a redesign of the mobile app, but as designing the app and talking to users, we recognized a problem: How to you design a modern app, modeled after a webapp, when the webapp itself needs an update? I decided to do a quick reskinning of what I thought the webapp could look like if we were to keep the general UX, but update it to be a little more modern. Then I took that card based design, from the site and modeled the app after it. This project is still ongoing, but we’ve made a lot of progress. Currently the dev team is working on implementing the signon process that I designed, and I am working on designing out each page based on the approved mockup above. </p>
+
+
+<?php include 'php/head.php'; ?>
+<link href="css/projectpage.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<body id="page-top">
+
+    <header class="masthead wl-bg">
+        <?php include 'php/nav.php'; ?>
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1><b>NYU</b>Worklink</h1>
+            </div>
+
         </div>
-        
-    </div>
-  </div>
-    
-     <!--Page Ten Next Steps   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-    <div class="project-section">
-    <div class="w-container">
-      <img class="timeline" src="images/uxprototype.png">
-      <h2 class="project-page-h2">Prototypes</h2>
-      <p>We build both physical and digital prototypes of interactive forms, pattern interpretation and information access to test and get many user feedbacks.
-      <img class="timeline" src="images/uxprototype.png">
- </p>
-    </div>
-  </div>
-    
-    
-<!--Footer Section   /////////////////////////////////////////////////////////////////////////////////////////////// -->      
-  <div class="section">
-    <div id="projects" class="container-3 w-container">
-      <h3 class="section-title">Recent Projects</h3>
-        
-      <div class="w-dyn-list">
-        <div class="w-dyn-items w-row">
-            <!--img 1-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/deductr.html" class="w-inline-block"><img src="images/deductrthum.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"></a></div>
-            <!--img 2-->
-          <div class="w-dyn-item w-col w-col-4"><a href="https://www.openprocessing.org/user/97408" class="w-inline-block"><img src="images/oldTV800.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"></a></div>
-            <!--img 3-->
-          <div class="w-dyn-item w-col w-col-4"><a href="227duffield.html" class="w-inline-block"><img src="images/UXclass.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/UXclass.png 500w, images/UXclass.png 800w, images/UXclass.png 800w" class="project-image"></a></div>
-            <!--img 4-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/bluestar.html" class="w-inline-block"><img src="images/bluestar.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" class="project-image"></a></div>
-            <!--img 5-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/flatirons.html" class="w-inline-block"><img src="images/flatirons-computer600.gif" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/flatirons-computer600.gif 600w, images/flatirons-computer600.gif 800w" class="project-image"></a></div>
-            <!--img 6-->
-          <div class="w-dyn-item w-col w-col-4"><a href="/120.html" class="w-inline-block"><img src="images/rollei.png" sizes="(max-width: 767px) 96vw, (max-width: 991px) 229.328125px, 299.984375px" srcset="images/rollei@0,65x.png 500w, images/rollei.png 800w, images/rollei.png 800w" class="project-image"></a></div>
-          <div class="w-dyn-item w-col w-col-4"><a href="/reebok.html" class="w-inline-block"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59225e53024ad86ffbd6f7d4_ezgif.com-video-to-gif.gif" class="project-image"/></a></div>
-            <div class="w-dyn-item w-col w-col-4"><a href="/projects/appcues" class="w-inline-block"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/5a3ec8ef115b2f000131c62a_appcues.gif" class="project-image"/></a></div>
+
+    </header>
+    <aside class="">
+        <div class="container">
+            <div class="row d-flex justify-content-center text-center mt-3">
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/pencil.svg" class="img-fluid" alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/sketch.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/abstract.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/framer%20x.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#">
+                        <figure>
+                            <img src="logos/indesign.svg" class="img-fluid " alt="">
+                        </figure>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div>
-          <p></p>
+    </aside>
+    <section id="process" class="projects-section bg-light">
+        <div class="container">
+            <div class="col-lg-8 mx-auto">
+                <h1 class="dark-grey mb-4 ">Worklink Mobile App</h1>
+                <p class="text-black-50">Worklink is an existing facility management system at NYU but currently lacks a mobile app for Residents and Faculty to submit a maintenance request. Worklink is extremely valuable to NYU's thousands of Facilities Employees, NYU Housing Residence, and service shops. currently, it allows work requests to be managed by Facilities and dispatched to service shops.</p>
+                <p class="text-black-50">
+                    When I joined NYU OTSS, we had just committed to redesigning the entire system, which includes separate Desktop apps for CSC and an iPad app for service shops. Currently, however, there is no end-user side, and if a housing resident wants to make a repair or maintenance request, they have to do it via email or phone.</p>
+                <p class="text-black-50">
+                    This app will make it more convenient for NYU faculty and residences, and reduce phone and email time for NYU Facilities employees.
+                </p>
+            </div>
+
+            <div class="col-lg-8 mx-auto">
+                <h2 class="dark-grey">Wireframes</h2>
+                <p class="text-black-50">When I was on-boarded onto the project, most of the wireframing and sketching was completed by another designer, so I want to be careful not to take credit for their work. Below are some of the wireframes that I initially received. We worked with the stakeholders and users to improve and validate some of the design assumptions we had made.</p>
+                <p class="text-black-50">After that, we moved onto designing lo-fi mockups and continued working closely with users in Facilities and CSC to ensure our designs were headed in the right direction.
+                </p>
+            </div>
+            <div class="col-lg-12 mx-auto text-center mb-4">
+                <img src="/worklink/mockups/lofi.png" class="img-fluid" alt="">
+
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="w-container">
-      <div class="footer-logo">Davon Larson</div>
-      <div>Human Centered Designer</div>
-    </div>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
-  <script src="js/webflow.js" type="text/javascript"></script>
-  <!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+    </section>
+
+    <section id="workflow" class="projects-section bg-dark">
+        <div class="container">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="text-white mb-4 ">Rapid Prototyping</h2>
+                <p class="text-white-50 mb-4">Because the app is relatively small, and the MVP was limited to only the most valuable functions, we were able to move through several design iterations fast.</p>
+                <p class="text-white-50 mb-4">It allowed us to experiment with design conventions that would be new to our users, as well as employ ones that we know would be familiar. We tested several layouts and flows with our key users. </p>
+                <p class="text-white-50 mb-4">While interviewing users, we discovered how important the speed at which they could make a request is, and heard over an over again that that was a pain point when using the old system. Imagine how important this would be when making a repair request for a flooding toilet, or AC that is out in the summer.
+                </p>
+                <p class="text-white-50 mb-4">
+                    We decided to take advantage of several of NYU's existing databases, including their space database, and previous work request history. This allowed us to anticipate what users were requesting, and where they might be. The goal was to make the act of submitting a request as fast and painless as possible.</p>
+            </div>
+            <div class="col-lg-12 mx-auto">
+                <img class="img-fluid" src="/worklink/mockups/iteration1.jpg">
+            </div>
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="dark-grey mbt-4 ">Final Designs</h2>
+
+                </div>
+                <div class="col-lg-12 mx-auto">
+                    <img class="img-fluid" src="worklink/mockups/final.jpg">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mbt-4 ">Prototyping &amp; Testing</h2>
+                    <p class="text-white-50 mb-4">
+                        Over the course of this project, we built and tested about 7 different Invision or Framer prototypes. This allowed us to both validate our good design, and correct our biases. It also allowed us to match our designs to the users mental model, which should result in a much lower adoption time and rate. </p>
+
+
+                </div>
+                <div class="col-lg-12 mx-auto">
+                    <img class="img-fluid" src="worklink/mockups/prototyping.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="wireframes" class="projects-section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="dark-grey mbt-4 ">Filling in for the Front-end Team</h2>
+                    <p class="text-black-50 mb-4">
+React JS is new to our whole team, so we didn't see any reason that we couldn't learn it in tandem with our developers. Another designer here named Laz, and I took on the challenge of creating an HTML and CSS prototype that could easily be converted into React components. We also stayed involved with the development team, joining all of their scrums, and worked directly with them in converting our HTML prototype into React components. </p>
+
+                </div>
+                <div class="col-lg-12 mx-auto">
+                    <img class="img-fluid" src="worklink/mockups/prototypingCode.png">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <?php include 'php/footer.php'; ?>
+
 </body>
+
 </html>
