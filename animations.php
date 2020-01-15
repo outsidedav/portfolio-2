@@ -2,12 +2,12 @@
 <html>
     
 <!--    php head include-->
-<?php include 'php/head.php'; ?>
+<?php include 'php/preBShead.php'; ?>
 
 <body class="body-2">
     <div>
         <!--      php nav include-->
-        <?php include 'php/nav.php'; ?>
+        <?php include 'php/preBSNav.php'; ?>
         <div class="bg-container">
 
             <div class="background-gradient">
@@ -83,7 +83,7 @@
     </div>
 
             <!--php include    -->
-            <?php include 'php/footer.php'; ?>
+            <?php include 'php/preBSFooter.php'; ?>
 <script src="/js/pauseGif.js" type="text/javascript"></script>
     
 </body>

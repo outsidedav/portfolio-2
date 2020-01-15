@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <?php include 'php/head.php'; ?>
+    <link href="css/projectpage.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <header class="masthead">
+        <?php include 'php/nav.php'; ?>
+        <div class="container d-flex h-100 align-items-center">
+            <div class="mx-auto text-center">
+                <h1 class="mx-auto my-0 text-uppercase">Shaders</h1>
+                <h2 class="text-white-50 mx-auto mt-2 mb-5">Creative Coding with C++, OpenFrameworks and Shaders</h2>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="text-white mb-4">What's a Shader?</h2>
+                    <p class="text-white-50">Openframeworks is an opensource C++ library that is really popular in the art community. Openframeworks has a set of tools and plugins that make it relatively easy to do Processing type programming in C++. In simple terms, shaders are how programmers access and leverage the GPU to do calculations. Shaders can be really tricky because there are limitations to how the GPU can process information. Shaders are probably most popular graphics-heavy programs like video game or effect generation in film. For this project, I was really inspired by one of the ending scenes in the movie Annihilation. There is a sphere that represents a kind of alien, with very organic looking fractals that loop out of what looks like an eye. I thought that looked mesmerizing and I wanted to attempt to duplicate a shader with a similar effect</p>
+                </div>
+            </div>
+<!--
+            <video id="" class="mx-auto" autoplay loop>
+            <source src="videos/Annihilation.mp4">
+        </video>
+-->
+                    <img src="images/of/shaders_pipeline.png" class="img-fluid" alt="">
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+        <div class="container">
+
+            <!-- Featured Project Row -->
+            <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                <video class="col-xl-8 col-lg-7" autoplay loop>
+                    <source src="videos/Annihilation.mp4">
+                </video>
+                <!--
+          <div class="col-xl-8 col-lg-7">
+            <img class="img-fluid mb-3 mb-lg-0" src="" alt="">
+          </div>-->
+                <div class="col-xl-4 col-lg-5">
+                    <div class="featured-text text-center text-lg-left">
+                        <h4 class="dark-grey">The Inspiration</h4>
+                        <p class="text-black-50 mb-0">The first step would be to figure out how to create and manipulate a sphere in OpenFrameworks and pass those calculations through a shader using GLSL. I spent a few hours with primitive shapes in OpenFrameworks figuring out what was possible.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6 dark-grey-bg">
+                    <video class="img-fluid" autoplay loop>
+                    <source src="videos/icosphererotate940.mp4">
+                </video>
+                </div>
+                <!--
+                <div class="col-lg-6 dark-grey-bg">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+-->
+                <div class="col-lg-6 dark-grey-bg">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Step One</h4>
+                                <p class="mb-0 text-white-50">The first step would be to figure out how to create and manipulate a sphere in OpenFrameworks and pass those calculations through a shader using GLSL. I spent a few hours with primitive shapes in OpenFrameworks figuring out what was possible.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6 dark-grey-bg">
+                    <video class="img-fluid" autoplay loop>
+                    <source src="videos/shaderPrototype940.mp4">
+                </video>
+                </div>
+                <!--
+                <div class="col-lg-6 dark-grey-bg">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+-->
+                <div class="col-lg-6 dark-grey-bg order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Step Two</h4>
+                                <p class="mb-0 text-white-50">My first theory was that I would be able to use any image and apply it as a texture to the sphere. As you can see below, sphere's don't really work that way. You have to use a Mercator image, or UV map that will stretch evenly over a sphere (think of how an image of the globe looks stretched out).</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6 dark-grey-bg">
+                    <video class="img-fluid" autoplay loop>
+                    <source src="videos/icosphererotate940.mp4">
+                </video>
+                </div>
+                <!--
+                <div class="col-lg-6 dark-grey-bg">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+-->
+                <div class="col-lg-6 dark-grey-bg">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Step One</h4>
+                                <p class="mb-0 text-white-50">The first step would be to figure out how to create and manipulate a sphere in OpenFrameworks and pass those calculations through a shader using GLSL. I spent a few hours with primitive shapes in OpenFrameworks figuring out what was possible.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Two Row -->
+            <div class="row justify-content-center no-gutters">
+                <div class="col-lg-6 dark-grey-bg">
+                    <video class="img-fluid" autoplay loop>
+                    <source src="videos/shaderPrototype940.mp4">
+                </video>
+                </div>
+                <!--
+                <div class="col-lg-6 dark-grey-bg">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+-->
+                <div class="col-lg-6 dark-grey-bg order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Step Two</h4>
+                                <p class="mb-0 text-white-50">My first theory was that I would be able to use any image and apply it as a texture to the sphere. As you can see below, sphere's don't really work that way. You have to use a Mercator image, or UV map that will stretch evenly over a sphere (think of how an image of the globe looks stretched out).</p>
+                                <hr class="d-none d-lg-block mb-0 mr-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Project One Row -->
+            <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+              <div class="col-lg-6 dark-grey-bg">
+                    <video class="img-fluid" autoplay loop>
+                    <source src="videos/icosphererotate940.mp4">
+                </video>
+                </div>
+                <!--
+                <div class="col-lg-6 dark-grey-bg">
+                    <img class="img-fluid" src="img/demo-image-02.jpg" alt="">
+                </div>
+-->
+                <div class="col-lg-6 dark-grey-bg">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Step One</h4>
+                                <p class="mb-0 text-white-50">The first step would be to figure out how to create and manipulate a sphere in OpenFrameworks and pass those calculations through a shader using GLSL. I spent a few hours with primitive shapes in OpenFrameworks figuring out what was possible.</p>
+                                <hr class="d-none d-lg-block mb-0 ml-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+
+    <?php include 'php/footer.php'; ?>
+
+</body>
+
+</html>

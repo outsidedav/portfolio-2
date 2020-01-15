@@ -2,12 +2,12 @@
 <html>
 
 <!--    php head include-->
-    <?php include 'php/head.php'; ?>
+    <?php include 'php/preBShead.php'; ?>
     
 <body class="body-2">
   <div>
 <!--      php header include-->
-    <?php include 'php/nav.php'; ?>    
+    <?php include 'php/preBSNav.php'; ?>    
     
         <div class="project-background-div"><img src="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59eaa08bf4f8560001c97206_vasquezbwbackgroun.png" sizes="100vw" srcset="http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59eaa08bf4f8560001c97206_vasquezbwbackgroun-p-500.png 500w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59eaa08bf4f8560001c97206_vasquezbwbackgroun-p-800.png 800w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59eaa08bf4f8560001c97206_vasquezbwbackgroun-p-1080.png 1080w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59eaa08bf4f8560001c97206_vasquezbwbackgroun-p-1600.png 1600w, http://uploads.webflow.com/592103aa16b99b0139ddc5f9/59eaa08bf4f8560001c97206_vasquezbwbackgroun.png 2000w" class="projbg" /></div>
         <div class="heading-wrapper w-container">
@@ -79,7 +79,7 @@
     
     
 <!--footer include    -->
- <?php include 'php/footer.php'; ?>    
+ <?php include 'php/preBSFooter.php'; ?>    
 <!--footer include end-->   
     
     
